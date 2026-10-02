@@ -1,0 +1,23 @@
+[
+  {
+    "id": "term-token-v2",
+    "slug": "token",
+    "scope": null,
+    "title": "设计令牌 (Token)",
+    "body": "3.0 预览：令牌支持服务端下发与按租户覆盖（预览特性，可能变化）。"
+  },
+  {
+    "id": "term-token-v2",
+    "slug": "token",
+    "scope": "css",
+    "title": "CSS 变量令牌",
+    "body": "3.0 预览：令牌分层为 primitive / semantic / component 三级。"
+  },
+  {
+    "id": "term-sdk",
+    "slug": "sdk",
+    "scope": null,
+    "title": "SDK 实例",
+    "body": "3.0 预览：createSdk(config) 支持 React/Vue 双渲染器。"
+  }
+]

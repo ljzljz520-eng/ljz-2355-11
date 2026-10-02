@@ -1,0 +1,18 @@
+/* 版本导航功能的全局微调 */
+.vp-nav .vp-version-switcher { margin-left: 12px; }
+.VPNav .VPNavBar .vp-version-trigger { margin-right: 4px; }
+
+/* 已下线内容容器（::: removed） */
+.vp-removed-doc {
+  border: 1px solid #f56c6c55;
+  border-left: 4px solid #f56c6c;
+  border-radius: 10px;
+  padding: 12px 16px;
+  margin: 16px 0;
+  background: rgba(245, 108, 108, .06);
+}
+.vp-removed-doc strong { color: #c45656; }
+.vp-removed-doc p { margin: 6px 0 0; color: var(--vp-c-text-2); font-size: 13.5px; }
+
+/* 可迁移折叠块统一指示 */
+details[data-block-id] > summary { cursor: pointer; }

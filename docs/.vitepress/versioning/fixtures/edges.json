@@ -1,0 +1,181 @@
+[
+  {
+    "id": "e-install-10-11",
+    "fromVersion": "1.0.0", "toVersion": "1.1.0",
+    "fromNodeId": "guide-installation", "toNodeId": "guide-installation",
+    "kind": "identity"
+  },
+  {
+    "id": "e-quickstart-10-11",
+    "fromVersion": "1.0.0", "toVersion": "1.1.0",
+    "fromNodeId": "guide-quickstart", "toNodeId": "guide-quickstart",
+    "kind": "identity"
+  },
+  {
+    "id": "e-dialog-10-11",
+    "fromVersion": "1.0.0", "toVersion": "1.1.0",
+    "fromNodeId": "component-dialog", "toNodeId": "component-dialog",
+    "kind": "identity"
+  },
+  {
+    "id": "e-button-10-11",
+    "fromVersion": "1.0.0", "toVersion": "1.1.0",
+    "fromNodeId": "component-button", "toNodeId": "component-button",
+    "kind": "identity"
+  },
+
+  {
+    "id": "e-install-11-20",
+    "fromVersion": "1.1.0", "toVersion": "2.0.0",
+    "fromNodeId": "guide-installation", "toNodeId": "guide-installation",
+    "kind": "identity",
+    "anchorMap": { "cdn": "cdn", "peer-deps": "" },
+    "blocks": { "b-cdn-mirror": "b-cdn-mirror", "b-legacy-npm": "" }
+  },
+  {
+    "id": "e-install-20-11",
+    "fromVersion": "2.0.0", "toVersion": "1.1.0",
+    "fromNodeId": "guide-installation", "toNodeId": "guide-installation",
+    "kind": "identity",
+    "anchorMap": { "cdn": "cdn", "esm-only": "" },
+    "blocks": { "b-cdn-mirror": "b-cdn-mirror" }
+  },
+
+  {
+    "id": "e-quickstart-11-20",
+    "fromVersion": "1.1.0", "toVersion": "2.0.0",
+    "fromNodeId": "guide-quickstart", "toNodeId": "guide-quickstart-v2",
+    "kind": "rename",
+    "note": "初始化 API 从 createApp 改为 createSdk，示例按新 API 重写",
+    "anchorMap": { "init": "init", "first-call": "first-request", "options": "" },
+    "blocks": { "b-old-options": "" }
+  },
+  {
+    "id": "e-quickstart-20-11",
+    "fromVersion": "2.0.0", "toVersion": "1.1.0",
+    "fromNodeId": "guide-quickstart-v2", "toNodeId": "guide-quickstart",
+    "kind": "rename",
+    "note": "1.x 使用 createApp 初始化，与 2.x 的 createSdk 不同",
+    "anchorMap": { "init": "init", "first-request": "first-call", "interceptors": "" }
+  },
+
+  {
+    "id": "e-dialog-11-20-modal",
+    "fromVersion": "1.1.0", "toVersion": "2.0.0",
+    "fromNodeId": "component-dialog", "toNodeId": "component-dialog-modal",
+    "kind": "split",
+    "note": "Dialog 拆分为 Modal 与 Drawer：居中弹出能力归入 Modal",
+    "anchorMap": { "basic": "basic", "modal-mode": "basic", "drawer-mode": "", "api": "api" },
+    "blocks": { "b-nested": "b-nested" }
+  },
+  {
+    "id": "e-dialog-11-20-drawer",
+    "fromVersion": "1.1.0", "toVersion": "2.0.0",
+    "fromNodeId": "component-dialog", "toNodeId": "component-dialog-drawer",
+    "kind": "split",
+    "note": "Dialog 拆分为 Modal 与 Drawer：侧滑容器能力归入 Drawer",
+    "anchorMap": { "basic": "basic", "drawer-mode": "basic", "modal-mode": "", "api": "placement" },
+    "blocks": { "b-nested": "" }
+  },
+  {
+    "id": "e-modal-20-11",
+    "fromVersion": "2.0.0", "toVersion": "1.1.0",
+    "fromNodeId": "component-dialog-modal", "toNodeId": "component-dialog",
+    "kind": "merge",
+    "note": "2.0 的 Modal 与 Drawer 在 1.x 中是同一个 Dialog 组件",
+    "anchorMap": { "basic": "basic", "api": "api", "stacking": "" }
+  },
+  {
+    "id": "e-drawer-20-11",
+    "fromVersion": "2.0.0", "toVersion": "1.1.0",
+    "fromNodeId": "component-dialog-drawer", "toNodeId": "component-dialog",
+    "kind": "merge",
+    "note": "2.0 的 Modal 与 Drawer 在 1.x 中是同一个 Dialog 组件",
+    "anchorMap": { "basic": "basic", "placement": "api", "size": "" }
+  },
+
+  {
+    "id": "e-button-11-20",
+    "fromVersion": "1.1.0", "toVersion": "2.0.0",
+    "fromNodeId": "component-button", "toNodeId": "component-button",
+    "kind": "identity",
+    "anchorMap": { "basic": "basic", "loading": "loading", "icon-mode": "" }
+  },
+  {
+    "id": "e-button-20-11",
+    "fromVersion": "2.0.0", "toVersion": "1.1.0",
+    "fromNodeId": "component-button", "toNodeId": "component-button",
+    "kind": "identity",
+    "anchorMap": { "basic": "basic", "loading": "loading", "icon-slot": "" }
+  },
+
+  {
+    "id": "e-dangling-demo",
+    "fromVersion": "1.1.0", "toVersion": "2.0.0",
+    "fromNodeId": "guide-deprecated-topic", "toNodeId": "guide-removed-topic",
+    "kind": "rename",
+    "note": "故意悬挂：两端节点在对应版本均不存在，用于验证缺失目标提示与构建警告"
+  },
+
+  {
+    "id": "e-install-20-21",
+    "fromVersion": "2.0.0", "toVersion": "2.1.0",
+    "fromNodeId": "guide-installation", "toNodeId": "guide-installation",
+    "kind": "identity"
+  },
+  {
+    "id": "e-quickstart-20-21",
+    "fromVersion": "2.0.0", "toVersion": "2.1.0",
+    "fromNodeId": "guide-quickstart-v2", "toNodeId": "guide-quickstart-v2",
+    "kind": "identity"
+  },
+  {
+    "id": "e-modal-20-21",
+    "fromVersion": "2.0.0", "toVersion": "2.1.0",
+    "fromNodeId": "component-dialog-modal", "toNodeId": "component-dialog-modal",
+    "kind": "identity"
+  },
+  {
+    "id": "e-drawer-20-21",
+    "fromVersion": "2.0.0", "toVersion": "2.1.0",
+    "fromNodeId": "component-dialog-drawer", "toNodeId": "component-dialog-drawer",
+    "kind": "identity"
+  },
+  {
+    "id": "e-button-20-21",
+    "fromVersion": "2.0.0", "toVersion": "2.1.0",
+    "fromNodeId": "component-button", "toNodeId": "component-button",
+    "kind": "identity"
+  },
+
+  {
+    "id": "e-install-21-30",
+    "fromVersion": "2.1.0", "toVersion": "3.0.0-beta",
+    "fromNodeId": "guide-installation", "toNodeId": "guide-installation",
+    "kind": "identity"
+  },
+  {
+    "id": "e-quickstart-21-30",
+    "fromVersion": "2.1.0", "toVersion": "3.0.0-beta",
+    "fromNodeId": "guide-quickstart-v2", "toNodeId": "guide-quickstart-v2",
+    "kind": "identity"
+  },
+  {
+    "id": "e-modal-21-30",
+    "fromVersion": "2.1.0", "toVersion": "3.0.0-beta",
+    "fromNodeId": "component-dialog-modal", "toNodeId": "component-dialog-modal",
+    "kind": "identity"
+  },
+  {
+    "id": "e-drawer-21-30",
+    "fromVersion": "2.1.0", "toVersion": "3.0.0-beta",
+    "fromNodeId": "component-dialog-drawer", "toNodeId": "component-dialog-drawer",
+    "kind": "identity"
+  },
+  {
+    "id": "e-button-21-30",
+    "fromVersion": "2.1.0", "toVersion": "3.0.0-beta",
+    "fromNodeId": "component-button", "toNodeId": "component-button",
+    "kind": "identity"
+  }
+]

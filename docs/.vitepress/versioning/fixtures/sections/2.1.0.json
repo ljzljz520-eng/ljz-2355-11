@@ -1,0 +1,44 @@
+[
+  {
+    "id": "guide-installation",
+    "title": "安装",
+    "path": "/guide/installation",
+    "status": "published"
+  },
+  {
+    "id": "guide-quickstart-v2",
+    "title": "快速开始",
+    "path": "/guide/quickstart",
+    "status": "published"
+  },
+  {
+    "id": "component-dialog-modal",
+    "title": "Modal 模态框",
+    "path": "/components/modal",
+    "status": "published"
+  },
+  {
+    "id": "component-dialog-drawer",
+    "title": "Drawer 抽屉",
+    "path": "/components/drawer",
+    "status": "published"
+  },
+  {
+    "id": "component-button",
+    "title": "Button 按钮",
+    "path": "/components/button",
+    "status": "published"
+  },
+  {
+    "id": "guide-changelog",
+    "title": "更新日志",
+    "path": "/guide/changelog",
+    "status": "draft"
+  },
+  {
+    "id": "guide-migration-21",
+    "title": "2.1 迁移指南",
+    "path": "/guide/migrating",
+    "status": "draft"
+  }
+]

@@ -1,0 +1,2243 @@
+{
+  "schema": "docs-catalog/v1",
+  "product": "demo-lib",
+  "build": {
+    "commit": "d8eecd37694601b7afa3f8626e32b101a4f39402",
+    "builtAt": "2026-10-02T01:46:21.596Z",
+    "maxChain": 8
+  },
+  "versions": [
+    {
+      "version": "1.0.0",
+      "label": "v1.0（维护）",
+      "status": "public",
+      "scopes": [],
+      "basePath": "/v1/",
+      "releasedAt": "2024-03-01"
+    },
+    {
+      "version": "1.1.0",
+      "label": "v1.1",
+      "status": "public",
+      "scopes": [],
+      "basePath": "/v1/",
+      "releasedAt": "2024-09-15"
+    },
+    {
+      "version": "2.0.0",
+      "label": "v2.0（最新）",
+      "status": "public",
+      "scopes": [],
+      "basePath": "/",
+      "releasedAt": "2025-06-01"
+    },
+    {
+      "version": "2.1.0",
+      "label": "v2.1 草稿",
+      "status": "draft",
+      "scopes": [],
+      "basePath": "/next/",
+      "releasedAt": null
+    },
+    {
+      "version": "3.0.0-beta",
+      "label": "v3.0 预览（私有）",
+      "status": "private",
+      "scopes": [
+        "beta-preview"
+      ],
+      "basePath": "/next/",
+      "releasedAt": null
+    }
+  ],
+  "order": [
+    "1.0.0",
+    "1.1.0",
+    "2.0.0",
+    "2.1.0",
+    "3.0.0-beta"
+  ],
+  "sections": {
+    "1.0.0": [
+      {
+        "id": "guide-installation",
+        "title": "安装",
+        "path": "/v1/guide/installation",
+        "scope": null,
+        "status": "published",
+        "legacyPaths": [
+          "/v1/install.html",
+          "/zh/install"
+        ],
+        "applicable": null
+      },
+      {
+        "id": "guide-quickstart",
+        "title": "快速开始",
+        "path": "/v1/guide/quickstart",
+        "scope": null,
+        "status": "published",
+        "legacyPaths": [],
+        "applicable": {
+          "kind": "outdated",
+          "range": "<2.0.0",
+          "supersededBy": "guide-quickstart-v2",
+          "note": "示例中的 createApp 初始化方式仅适用于 1.x，2.0 起请使用 createSdk。"
+        }
+      },
+      {
+        "id": "component-dialog",
+        "title": "Dialog 对话框",
+        "path": "/v1/components/dialog",
+        "scope": null,
+        "status": "published",
+        "legacyPaths": [
+          "/v1/components/modal"
+        ],
+        "applicable": null
+      },
+      {
+        "id": "component-button",
+        "title": "Button 按钮",
+        "path": "/v1/components/button",
+        "scope": null,
+        "status": "published",
+        "legacyPaths": [],
+        "applicable": null
+      }
+    ],
+    "1.1.0": [
+      {
+        "id": "guide-installation",
+        "title": "安装",
+        "path": "/v1/guide/installation",
+        "scope": null,
+        "status": "published",
+        "legacyPaths": [
+          "/v1/install.html",
+          "/zh/install"
+        ],
+        "applicable": null
+      },
+      {
+        "id": "guide-quickstart",
+        "title": "快速开始",
+        "path": "/v1/guide/quickstart",
+        "scope": null,
+        "status": "published",
+        "legacyPaths": [],
+        "applicable": {
+          "kind": "outdated",
+          "range": "<2.0.0",
+          "supersededBy": "guide-quickstart-v2",
+          "note": "示例中的 createApp 初始化方式仅适用于 1.x，2.0 起请使用 createSdk。"
+        }
+      },
+      {
+        "id": "component-dialog",
+        "title": "Dialog 对话框",
+        "path": "/v1/components/dialog",
+        "scope": null,
+        "status": "published",
+        "legacyPaths": [],
+        "applicable": null
+      },
+      {
+        "id": "component-button",
+        "title": "Button 按钮",
+        "path": "/v1/components/button",
+        "scope": null,
+        "status": "published",
+        "legacyPaths": [],
+        "applicable": null
+      }
+    ],
+    "2.0.0": [
+      {
+        "id": "guide-installation",
+        "title": "安装",
+        "path": "/guide/installation",
+        "scope": null,
+        "status": "published",
+        "legacyPaths": [],
+        "applicable": null
+      },
+      {
+        "id": "guide-quickstart-v2",
+        "title": "快速开始",
+        "path": "/guide/quickstart",
+        "scope": null,
+        "status": "published",
+        "legacyPaths": [
+          "/guide/quickstart-v2"
+        ],
+        "applicable": null
+      },
+      {
+        "id": "component-dialog-modal",
+        "title": "Modal 模态框",
+        "path": "/components/modal",
+        "scope": null,
+        "status": "published",
+        "legacyPaths": [],
+        "applicable": null
+      },
+      {
+        "id": "component-dialog-drawer",
+        "title": "Drawer 抽屉",
+        "path": "/components/drawer",
+        "scope": null,
+        "status": "published",
+        "legacyPaths": [],
+        "applicable": null
+      },
+      {
+        "id": "component-button",
+        "title": "Button 按钮",
+        "path": "/components/button",
+        "scope": null,
+        "status": "published",
+        "legacyPaths": [],
+        "applicable": null
+      },
+      {
+        "id": "guide-changelog",
+        "title": "更新日志",
+        "path": "/guide/changelog",
+        "scope": null,
+        "status": "published",
+        "legacyPaths": [],
+        "applicable": null
+      }
+    ],
+    "2.1.0": [
+      {
+        "id": "guide-installation",
+        "title": "安装",
+        "path": "/guide/installation",
+        "scope": null,
+        "status": "published",
+        "legacyPaths": [],
+        "applicable": null
+      },
+      {
+        "id": "guide-quickstart-v2",
+        "title": "快速开始",
+        "path": "/guide/quickstart",
+        "scope": null,
+        "status": "published",
+        "legacyPaths": [],
+        "applicable": null
+      },
+      {
+        "id": "component-dialog-modal",
+        "title": "Modal 模态框",
+        "path": "/components/modal",
+        "scope": null,
+        "status": "published",
+        "legacyPaths": [],
+        "applicable": null
+      },
+      {
+        "id": "component-dialog-drawer",
+        "title": "Drawer 抽屉",
+        "path": "/components/drawer",
+        "scope": null,
+        "status": "published",
+        "legacyPaths": [],
+        "applicable": null
+      },
+      {
+        "id": "component-button",
+        "title": "Button 按钮",
+        "path": "/components/button",
+        "scope": null,
+        "status": "published",
+        "legacyPaths": [],
+        "applicable": null
+      },
+      {
+        "id": "guide-changelog",
+        "title": "更新日志",
+        "path": "/guide/changelog",
+        "scope": null,
+        "status": "draft",
+        "legacyPaths": [],
+        "applicable": null
+      },
+      {
+        "id": "guide-migration-21",
+        "title": "2.1 迁移指南",
+        "path": "/guide/migrating",
+        "scope": null,
+        "status": "draft",
+        "legacyPaths": [],
+        "applicable": null
+      }
+    ],
+    "3.0.0-beta": [
+      {
+        "id": "guide-installation",
+        "title": "安装",
+        "path": "/next/guide/installation",
+        "scope": null,
+        "status": "published",
+        "legacyPaths": [],
+        "applicable": null
+      },
+      {
+        "id": "guide-quickstart-v2",
+        "title": "快速开始",
+        "path": "/next/guide/quickstart",
+        "scope": null,
+        "status": "published",
+        "legacyPaths": [],
+        "applicable": null
+      },
+      {
+        "id": "component-dialog-modal",
+        "title": "Modal 模态框",
+        "path": "/next/components/modal",
+        "scope": "beta-preview",
+        "status": "published",
+        "legacyPaths": [],
+        "applicable": null
+      },
+      {
+        "id": "component-dialog-drawer",
+        "title": "Drawer 抽屉",
+        "path": "/next/components/drawer",
+        "scope": "beta-preview",
+        "status": "published",
+        "legacyPaths": [],
+        "applicable": null
+      },
+      {
+        "id": "component-button",
+        "title": "Button 按钮",
+        "path": "/next/components/button",
+        "scope": null,
+        "status": "published",
+        "legacyPaths": [],
+        "applicable": null
+      },
+      {
+        "id": "component-ai-assistant",
+        "title": "AI Assistant",
+        "path": "/next/components/ai-assistant",
+        "scope": "beta-preview",
+        "status": "published",
+        "legacyPaths": [],
+        "applicable": null
+      }
+    ]
+  },
+  "terms": {
+    "1.0.0": {
+      "token": {
+        "id": "term-token",
+        "slug": "token",
+        "scope": null,
+        "title": "设计令牌 (Token)",
+        "body": "1.x 中 Token 仅指全局 SCSS 变量（如 $color-primary），构建时替换，运行时不可变。"
+      },
+      "token@css": {
+        "id": "term-token",
+        "slug": "token",
+        "scope": "css",
+        "title": "CSS 变量令牌",
+        "body": "1.x 少量通过 CSS Custom Properties 暴露的主题变量，仅限颜色。"
+      },
+      "app": {
+        "id": "term-app",
+        "slug": "app",
+        "scope": null,
+        "title": "App 实例",
+        "body": "由 createApp(component) 创建，调用 app.mount('#app') 挂载。"
+      },
+      "dialog": {
+        "id": "term-dialog",
+        "slug": "dialog",
+        "scope": null,
+        "title": "Dialog",
+        "body": "1.x 的对话框组件，通过 type 属性在居中弹窗与侧滑抽屉间切换。"
+      }
+    },
+    "1.1.0": {
+      "token": {
+        "id": "term-token",
+        "slug": "token",
+        "scope": null,
+        "title": "设计令牌 (Token)",
+        "body": "1.x 中 Token 指全局 SCSS 变量（如 $color-primary），构建时替换。1.1 起新增暗色模式变量集。"
+      },
+      "token@css": {
+        "id": "term-token",
+        "slug": "token",
+        "scope": "css",
+        "title": "CSS 变量令牌",
+        "body": "1.1 中 CSS Custom Properties 覆盖颜色与间距，但仍需 SCSS 编译。"
+      },
+      "app": {
+        "id": "term-app",
+        "slug": "app",
+        "scope": null,
+        "title": "App 实例",
+        "body": "由 createApp(component) 创建，调用 app.mount('#app') 挂载。"
+      },
+      "dialog": {
+        "id": "term-dialog",
+        "slug": "dialog",
+        "scope": null,
+        "title": "Dialog",
+        "body": "1.x 的对话框组件，居中弹窗与侧滑抽屉共用一个组件。"
+      }
+    },
+    "2.0.0": {
+      "token": {
+        "id": "term-token-v2",
+        "slug": "token",
+        "scope": null,
+        "title": "设计令牌 (Token)",
+        "body": "2.0 中 Token 是运行时可变的语义化令牌（--vp-color-brand 等），支持动态换肤；不再有 SCSS 编译期变量。"
+      },
+      "token@css": {
+        "id": "term-token-v2",
+        "slug": "token",
+        "scope": "css",
+        "title": "CSS 变量令牌",
+        "body": "2.0 的令牌统一以 CSS Custom Properties 提供，覆盖颜色、间距、圆角与动效。"
+      },
+      "sdk": {
+        "id": "term-sdk",
+        "slug": "sdk",
+        "scope": null,
+        "title": "SDK 实例",
+        "body": "由 createSdk(config) 创建，返回带拦截器与插件系统的实例，取代了 1.x 的 App。"
+      },
+      "modal": {
+        "id": "term-modal",
+        "slug": "modal",
+        "scope": null,
+        "title": "Modal",
+        "body": "2.0 的居中模态框组件，由旧 Dialog 拆分而来。"
+      },
+      "drawer": {
+        "id": "term-drawer",
+        "slug": "drawer",
+        "scope": null,
+        "title": "Drawer",
+        "body": "2.0 的侧滑容器组件，由旧 Dialog 拆分而来，支持四个方向。"
+      }
+    },
+    "2.1.0": {
+      "token": {
+        "id": "term-token-v2",
+        "slug": "token",
+        "scope": null,
+        "title": "设计令牌 (Token)",
+        "body": "2.1 中 Token 为运行时语义化令牌，新增组件级令牌覆盖能力。"
+      },
+      "token@css": {
+        "id": "term-token-v2",
+        "slug": "token",
+        "scope": "css",
+        "title": "CSS 变量令牌",
+        "body": "覆盖颜色、间距、圆角、动效与字号。"
+      },
+      "sdk": {
+        "id": "term-sdk",
+        "slug": "sdk",
+        "scope": null,
+        "title": "SDK 实例",
+        "body": "由 createSdk(config) 创建；2.1 新增 createSdk.lazy()。"
+      },
+      "modal": {
+        "id": "term-modal",
+        "slug": "modal",
+        "scope": null,
+        "title": "Modal",
+        "body": "2.1 的居中模态框组件。"
+      },
+      "drawer": {
+        "id": "term-drawer",
+        "slug": "drawer",
+        "scope": null,
+        "title": "Drawer",
+        "body": "2.1 的侧滑容器组件。"
+      }
+    },
+    "3.0.0-beta": {
+      "token": {
+        "id": "term-token-v2",
+        "slug": "token",
+        "scope": null,
+        "title": "设计令牌 (Token)",
+        "body": "3.0 预览：令牌支持服务端下发与按租户覆盖（预览特性，可能变化）。"
+      },
+      "token@css": {
+        "id": "term-token-v2",
+        "slug": "token",
+        "scope": "css",
+        "title": "CSS 变量令牌",
+        "body": "3.0 预览：令牌分层为 primitive / semantic / component 三级。"
+      },
+      "sdk": {
+        "id": "term-sdk",
+        "slug": "sdk",
+        "scope": null,
+        "title": "SDK 实例",
+        "body": "3.0 预览：createSdk(config) 支持 React/Vue 双渲染器。"
+      }
+    }
+  },
+  "edges": [
+    {
+      "id": "e-install-10-11",
+      "fromVersion": "1.0.0",
+      "toVersion": "1.1.0",
+      "fromNodeId": "guide-installation",
+      "toNodeId": "guide-installation",
+      "kind": "identity"
+    },
+    {
+      "id": "e-quickstart-10-11",
+      "fromVersion": "1.0.0",
+      "toVersion": "1.1.0",
+      "fromNodeId": "guide-quickstart",
+      "toNodeId": "guide-quickstart",
+      "kind": "identity"
+    },
+    {
+      "id": "e-dialog-10-11",
+      "fromVersion": "1.0.0",
+      "toVersion": "1.1.0",
+      "fromNodeId": "component-dialog",
+      "toNodeId": "component-dialog",
+      "kind": "identity"
+    },
+    {
+      "id": "e-button-10-11",
+      "fromVersion": "1.0.0",
+      "toVersion": "1.1.0",
+      "fromNodeId": "component-button",
+      "toNodeId": "component-button",
+      "kind": "identity"
+    },
+    {
+      "id": "e-install-11-20",
+      "fromVersion": "1.1.0",
+      "toVersion": "2.0.0",
+      "fromNodeId": "guide-installation",
+      "toNodeId": "guide-installation",
+      "kind": "identity",
+      "anchorMap": {
+        "cdn": "cdn",
+        "peer-deps": ""
+      },
+      "blocks": {
+        "b-cdn-mirror": "b-cdn-mirror",
+        "b-legacy-npm": ""
+      }
+    },
+    {
+      "id": "e-install-20-11",
+      "fromVersion": "2.0.0",
+      "toVersion": "1.1.0",
+      "fromNodeId": "guide-installation",
+      "toNodeId": "guide-installation",
+      "kind": "identity",
+      "anchorMap": {
+        "cdn": "cdn",
+        "esm-only": ""
+      },
+      "blocks": {
+        "b-cdn-mirror": "b-cdn-mirror"
+      }
+    },
+    {
+      "id": "e-quickstart-11-20",
+      "fromVersion": "1.1.0",
+      "toVersion": "2.0.0",
+      "fromNodeId": "guide-quickstart",
+      "toNodeId": "guide-quickstart-v2",
+      "kind": "rename",
+      "note": "初始化 API 从 createApp 改为 createSdk，示例按新 API 重写",
+      "anchorMap": {
+        "init": "init",
+        "first-call": "first-request",
+        "options": ""
+      },
+      "blocks": {
+        "b-old-options": ""
+      }
+    },
+    {
+      "id": "e-quickstart-20-11",
+      "fromVersion": "2.0.0",
+      "toVersion": "1.1.0",
+      "fromNodeId": "guide-quickstart-v2",
+      "toNodeId": "guide-quickstart",
+      "kind": "rename",
+      "note": "1.x 使用 createApp 初始化，与 2.x 的 createSdk 不同",
+      "anchorMap": {
+        "init": "init",
+        "first-request": "first-call",
+        "interceptors": ""
+      }
+    },
+    {
+      "id": "e-dialog-11-20-modal",
+      "fromVersion": "1.1.0",
+      "toVersion": "2.0.0",
+      "fromNodeId": "component-dialog",
+      "toNodeId": "component-dialog-modal",
+      "kind": "split",
+      "note": "Dialog 拆分为 Modal 与 Drawer：居中弹出能力归入 Modal",
+      "anchorMap": {
+        "basic": "basic",
+        "modal-mode": "basic",
+        "drawer-mode": "",
+        "api": "api"
+      },
+      "blocks": {
+        "b-nested": "b-nested"
+      }
+    },
+    {
+      "id": "e-dialog-11-20-drawer",
+      "fromVersion": "1.1.0",
+      "toVersion": "2.0.0",
+      "fromNodeId": "component-dialog",
+      "toNodeId": "component-dialog-drawer",
+      "kind": "split",
+      "note": "Dialog 拆分为 Modal 与 Drawer：侧滑容器能力归入 Drawer",
+      "anchorMap": {
+        "basic": "basic",
+        "drawer-mode": "basic",
+        "modal-mode": "",
+        "api": "placement"
+      },
+      "blocks": {
+        "b-nested": ""
+      }
+    },
+    {
+      "id": "e-modal-20-11",
+      "fromVersion": "2.0.0",
+      "toVersion": "1.1.0",
+      "fromNodeId": "component-dialog-modal",
+      "toNodeId": "component-dialog",
+      "kind": "merge",
+      "note": "2.0 的 Modal 与 Drawer 在 1.x 中是同一个 Dialog 组件",
+      "anchorMap": {
+        "basic": "basic",
+        "api": "api",
+        "stacking": ""
+      }
+    },
+    {
+      "id": "e-drawer-20-11",
+      "fromVersion": "2.0.0",
+      "toVersion": "1.1.0",
+      "fromNodeId": "component-dialog-drawer",
+      "toNodeId": "component-dialog",
+      "kind": "merge",
+      "note": "2.0 的 Modal 与 Drawer 在 1.x 中是同一个 Dialog 组件",
+      "anchorMap": {
+        "basic": "basic",
+        "placement": "api",
+        "size": ""
+      }
+    },
+    {
+      "id": "e-button-11-20",
+      "fromVersion": "1.1.0",
+      "toVersion": "2.0.0",
+      "fromNodeId": "component-button",
+      "toNodeId": "component-button",
+      "kind": "identity",
+      "anchorMap": {
+        "basic": "basic",
+        "loading": "loading",
+        "icon-mode": ""
+      }
+    },
+    {
+      "id": "e-button-20-11",
+      "fromVersion": "2.0.0",
+      "toVersion": "1.1.0",
+      "fromNodeId": "component-button",
+      "toNodeId": "component-button",
+      "kind": "identity",
+      "anchorMap": {
+        "basic": "basic",
+        "loading": "loading",
+        "icon-slot": ""
+      }
+    },
+    {
+      "id": "e-dangling-demo",
+      "fromVersion": "1.1.0",
+      "toVersion": "2.0.0",
+      "fromNodeId": "guide-deprecated-topic",
+      "toNodeId": "guide-removed-topic",
+      "kind": "rename",
+      "note": "故意悬挂：两端节点在对应版本均不存在，用于验证缺失目标提示与构建警告"
+    },
+    {
+      "id": "e-install-20-21",
+      "fromVersion": "2.0.0",
+      "toVersion": "2.1.0",
+      "fromNodeId": "guide-installation",
+      "toNodeId": "guide-installation",
+      "kind": "identity"
+    },
+    {
+      "id": "e-quickstart-20-21",
+      "fromVersion": "2.0.0",
+      "toVersion": "2.1.0",
+      "fromNodeId": "guide-quickstart-v2",
+      "toNodeId": "guide-quickstart-v2",
+      "kind": "identity"
+    },
+    {
+      "id": "e-modal-20-21",
+      "fromVersion": "2.0.0",
+      "toVersion": "2.1.0",
+      "fromNodeId": "component-dialog-modal",
+      "toNodeId": "component-dialog-modal",
+      "kind": "identity"
+    },
+    {
+      "id": "e-drawer-20-21",
+      "fromVersion": "2.0.0",
+      "toVersion": "2.1.0",
+      "fromNodeId": "component-dialog-drawer",
+      "toNodeId": "component-dialog-drawer",
+      "kind": "identity"
+    },
+    {
+      "id": "e-button-20-21",
+      "fromVersion": "2.0.0",
+      "toVersion": "2.1.0",
+      "fromNodeId": "component-button",
+      "toNodeId": "component-button",
+      "kind": "identity"
+    },
+    {
+      "id": "e-install-21-30",
+      "fromVersion": "2.1.0",
+      "toVersion": "3.0.0-beta",
+      "fromNodeId": "guide-installation",
+      "toNodeId": "guide-installation",
+      "kind": "identity"
+    },
+    {
+      "id": "e-quickstart-21-30",
+      "fromVersion": "2.1.0",
+      "toVersion": "3.0.0-beta",
+      "fromNodeId": "guide-quickstart-v2",
+      "toNodeId": "guide-quickstart-v2",
+      "kind": "identity"
+    },
+    {
+      "id": "e-modal-21-30",
+      "fromVersion": "2.1.0",
+      "toVersion": "3.0.0-beta",
+      "fromNodeId": "component-dialog-modal",
+      "toNodeId": "component-dialog-modal",
+      "kind": "identity"
+    },
+    {
+      "id": "e-drawer-21-30",
+      "fromVersion": "2.1.0",
+      "toVersion": "3.0.0-beta",
+      "fromNodeId": "component-dialog-drawer",
+      "toNodeId": "component-dialog-drawer",
+      "kind": "identity"
+    },
+    {
+      "id": "e-button-21-30",
+      "fromVersion": "2.1.0",
+      "toVersion": "3.0.0-beta",
+      "fromNodeId": "component-button",
+      "toNodeId": "component-button",
+      "kind": "identity"
+    }
+  ],
+  "termEdges": [
+    {
+      "id": "te-token-10-11",
+      "fromVersion": "1.0.0",
+      "toVersion": "1.1.0",
+      "fromTermId": "term-token",
+      "toTermId": "term-token",
+      "kind": "identity"
+    },
+    {
+      "id": "te-app-10-11",
+      "fromVersion": "1.0.0",
+      "toVersion": "1.1.0",
+      "fromTermId": "term-app",
+      "toTermId": "term-app",
+      "kind": "identity"
+    },
+    {
+      "id": "te-dialog-10-11",
+      "fromVersion": "1.0.0",
+      "toVersion": "1.1.0",
+      "fromTermId": "term-dialog",
+      "toTermId": "term-dialog",
+      "kind": "identity"
+    },
+    {
+      "id": "te-token-11-20",
+      "fromVersion": "1.1.0",
+      "toVersion": "2.0.0",
+      "fromTermId": "term-token",
+      "toTermId": "term-token-v2",
+      "kind": "rename",
+      "note": "Token 语义从编译期 SCSS 变量变为运行时语义化令牌，定义已重写，不可沿用旧解释"
+    },
+    {
+      "id": "te-token-20-11",
+      "fromVersion": "2.0.0",
+      "toVersion": "1.1.0",
+      "fromTermId": "term-token-v2",
+      "toTermId": "term-token",
+      "kind": "rename",
+      "note": "旧版 Token 是编译期 SCSS 变量"
+    },
+    {
+      "id": "te-app-11-20",
+      "fromVersion": "1.1.0",
+      "toVersion": "2.0.0",
+      "fromTermId": "term-app",
+      "toTermId": "term-sdk",
+      "kind": "rename",
+      "note": "App 概念在 2.0 被 SDK 取代"
+    },
+    {
+      "id": "te-sdk-20-11",
+      "fromVersion": "2.0.0",
+      "toVersion": "1.1.0",
+      "fromTermId": "term-sdk",
+      "toTermId": "term-app",
+      "kind": "rename",
+      "note": "1.x 中对应的是 App 实例"
+    },
+    {
+      "id": "te-dialog-11-20-modal",
+      "fromVersion": "1.1.0",
+      "toVersion": "2.0.0",
+      "fromTermId": "term-dialog",
+      "toTermId": "term-modal",
+      "kind": "split",
+      "note": "Dialog 拆为 Modal 与 Drawer 两个概念"
+    },
+    {
+      "id": "te-dialog-11-20-drawer",
+      "fromVersion": "1.1.0",
+      "toVersion": "2.0.0",
+      "fromTermId": "term-dialog",
+      "toTermId": "term-drawer",
+      "kind": "split",
+      "note": "Dialog 拆为 Modal 与 Drawer 两个概念"
+    },
+    {
+      "id": "te-modal-20-11",
+      "fromVersion": "2.0.0",
+      "toVersion": "1.1.0",
+      "fromTermId": "term-modal",
+      "toTermId": "term-dialog",
+      "kind": "merge"
+    },
+    {
+      "id": "te-drawer-20-11",
+      "fromVersion": "2.0.0",
+      "toVersion": "1.1.0",
+      "fromTermId": "term-drawer",
+      "toTermId": "term-dialog",
+      "kind": "merge"
+    },
+    {
+      "id": "te-token-20-21",
+      "fromVersion": "2.0.0",
+      "toVersion": "2.1.0",
+      "fromTermId": "term-token-v2",
+      "toTermId": "term-token-v2",
+      "kind": "identity"
+    },
+    {
+      "id": "te-sdk-20-21",
+      "fromVersion": "2.0.0",
+      "toVersion": "2.1.0",
+      "fromTermId": "term-sdk",
+      "toTermId": "term-sdk",
+      "kind": "identity"
+    },
+    {
+      "id": "te-modal-20-21",
+      "fromVersion": "2.0.0",
+      "toVersion": "2.1.0",
+      "fromTermId": "term-modal",
+      "toTermId": "term-modal",
+      "kind": "identity"
+    },
+    {
+      "id": "te-drawer-20-21",
+      "fromVersion": "2.0.0",
+      "toVersion": "2.1.0",
+      "fromTermId": "term-drawer",
+      "toTermId": "term-drawer",
+      "kind": "removed",
+      "note": "2.1 文档暂移除了 Drawer 术语（术语下线示例）"
+    },
+    {
+      "id": "te-token-21-30",
+      "fromVersion": "2.1.0",
+      "toVersion": "3.0.0-beta",
+      "fromTermId": "term-token-v2",
+      "toTermId": "term-token-v2",
+      "kind": "identity"
+    },
+    {
+      "id": "te-sdk-21-30",
+      "fromVersion": "2.1.0",
+      "toVersion": "3.0.0-beta",
+      "fromTermId": "term-sdk",
+      "toTermId": "term-sdk",
+      "kind": "identity"
+    }
+  ],
+  "materialized": {
+    "1.0.0": {
+      "guide-installation": {
+        "1.1.0": {
+          "status": "unique",
+          "target": {
+            "nodeId": "guide-installation",
+            "version": "1.1.0",
+            "path": "/v1/guide/installation",
+            "title": "安装"
+          },
+          "candidates": [],
+          "trail": [
+            "e-install-10-11"
+          ],
+          "hops": 1
+        },
+        "2.0.0": {
+          "status": "unique",
+          "target": {
+            "nodeId": "guide-installation",
+            "version": "2.0.0",
+            "path": "/guide/installation",
+            "title": "安装"
+          },
+          "candidates": [],
+          "trail": [
+            "e-install-10-11",
+            "e-install-11-20"
+          ],
+          "hops": 2
+        },
+        "2.1.0": {
+          "status": "unique",
+          "target": {
+            "nodeId": "guide-installation",
+            "version": "2.1.0",
+            "path": "/guide/installation",
+            "title": "安装"
+          },
+          "candidates": [],
+          "trail": [
+            "e-install-10-11",
+            "e-install-11-20",
+            "e-install-20-21"
+          ],
+          "hops": 3
+        },
+        "3.0.0-beta": {
+          "status": "unique",
+          "target": {
+            "nodeId": "guide-installation",
+            "version": "3.0.0-beta",
+            "path": "/next/guide/installation",
+            "title": "安装"
+          },
+          "candidates": [],
+          "trail": [
+            "e-install-10-11",
+            "e-install-11-20",
+            "e-install-20-21",
+            "e-install-21-30"
+          ],
+          "hops": 4
+        }
+      },
+      "guide-quickstart": {
+        "1.1.0": {
+          "status": "unique",
+          "target": {
+            "nodeId": "guide-quickstart",
+            "version": "1.1.0",
+            "path": "/v1/guide/quickstart",
+            "title": "快速开始"
+          },
+          "candidates": [],
+          "trail": [
+            "e-quickstart-10-11"
+          ],
+          "hops": 1
+        },
+        "2.0.0": {
+          "status": "unique",
+          "target": {
+            "nodeId": "guide-quickstart-v2",
+            "version": "2.0.0",
+            "path": "/guide/quickstart",
+            "title": "快速开始"
+          },
+          "candidates": [],
+          "trail": [
+            "e-quickstart-10-11",
+            "e-quickstart-11-20"
+          ],
+          "hops": 2
+        },
+        "2.1.0": {
+          "status": "unique",
+          "target": {
+            "nodeId": "guide-quickstart-v2",
+            "version": "2.1.0",
+            "path": "/guide/quickstart",
+            "title": "快速开始"
+          },
+          "candidates": [],
+          "trail": [
+            "e-quickstart-10-11",
+            "e-quickstart-11-20",
+            "e-quickstart-20-21"
+          ],
+          "hops": 3
+        },
+        "3.0.0-beta": {
+          "status": "unique",
+          "target": {
+            "nodeId": "guide-quickstart-v2",
+            "version": "3.0.0-beta",
+            "path": "/next/guide/quickstart",
+            "title": "快速开始"
+          },
+          "candidates": [],
+          "trail": [
+            "e-quickstart-10-11",
+            "e-quickstart-11-20",
+            "e-quickstart-20-21",
+            "e-quickstart-21-30"
+          ],
+          "hops": 4
+        }
+      },
+      "component-dialog": {
+        "1.1.0": {
+          "status": "unique",
+          "target": {
+            "nodeId": "component-dialog",
+            "version": "1.1.0",
+            "path": "/v1/components/dialog",
+            "title": "Dialog 对话框"
+          },
+          "candidates": [],
+          "trail": [
+            "e-dialog-10-11"
+          ],
+          "hops": 1
+        },
+        "2.0.0": {
+          "status": "choose",
+          "reason": "该章节在目标版本被拆分为多个章节，请选择要查看的内容",
+          "target": null,
+          "candidates": [
+            {
+              "nodeId": "component-dialog-modal",
+              "version": "2.0.0",
+              "path": "/components/modal",
+              "title": "Modal 模态框",
+              "note": null,
+              "anchor": null
+            },
+            {
+              "nodeId": "component-dialog-drawer",
+              "version": "2.0.0",
+              "path": "/components/drawer",
+              "title": "Drawer 抽屉",
+              "note": null,
+              "anchor": null
+            }
+          ],
+          "trail": [],
+          "hops": 2
+        },
+        "2.1.0": {
+          "status": "choose",
+          "reason": "该章节在目标版本被拆分为多个章节，请选择要查看的内容",
+          "target": null,
+          "candidates": [
+            {
+              "nodeId": "component-dialog-modal",
+              "version": "2.1.0",
+              "path": "/components/modal",
+              "title": "Modal 模态框",
+              "note": null,
+              "anchor": null
+            },
+            {
+              "nodeId": "component-dialog-drawer",
+              "version": "2.1.0",
+              "path": "/components/drawer",
+              "title": "Drawer 抽屉",
+              "note": null,
+              "anchor": null
+            }
+          ],
+          "trail": [],
+          "hops": 3
+        },
+        "3.0.0-beta": {
+          "status": "choose",
+          "reason": "该章节在目标版本被拆分为多个章节，请选择要查看的内容",
+          "target": null,
+          "candidates": [
+            {
+              "nodeId": "component-dialog-modal",
+              "version": "3.0.0-beta",
+              "path": "/next/components/modal",
+              "title": "Modal 模态框",
+              "note": null,
+              "anchor": null
+            },
+            {
+              "nodeId": "component-dialog-drawer",
+              "version": "3.0.0-beta",
+              "path": "/next/components/drawer",
+              "title": "Drawer 抽屉",
+              "note": null,
+              "anchor": null
+            }
+          ],
+          "trail": [],
+          "hops": 4
+        }
+      },
+      "component-button": {
+        "1.1.0": {
+          "status": "unique",
+          "target": {
+            "nodeId": "component-button",
+            "version": "1.1.0",
+            "path": "/v1/components/button",
+            "title": "Button 按钮"
+          },
+          "candidates": [],
+          "trail": [
+            "e-button-10-11"
+          ],
+          "hops": 1
+        },
+        "2.0.0": {
+          "status": "unique",
+          "target": {
+            "nodeId": "component-button",
+            "version": "2.0.0",
+            "path": "/components/button",
+            "title": "Button 按钮"
+          },
+          "candidates": [],
+          "trail": [
+            "e-button-10-11",
+            "e-button-11-20"
+          ],
+          "hops": 2
+        },
+        "2.1.0": {
+          "status": "unique",
+          "target": {
+            "nodeId": "component-button",
+            "version": "2.1.0",
+            "path": "/components/button",
+            "title": "Button 按钮"
+          },
+          "candidates": [],
+          "trail": [
+            "e-button-10-11",
+            "e-button-11-20",
+            "e-button-20-21"
+          ],
+          "hops": 3
+        },
+        "3.0.0-beta": {
+          "status": "unique",
+          "target": {
+            "nodeId": "component-button",
+            "version": "3.0.0-beta",
+            "path": "/next/components/button",
+            "title": "Button 按钮"
+          },
+          "candidates": [],
+          "trail": [
+            "e-button-10-11",
+            "e-button-11-20",
+            "e-button-20-21",
+            "e-button-21-30"
+          ],
+          "hops": 4
+        }
+      }
+    },
+    "1.1.0": {
+      "guide-installation": {
+        "1.0.0": {
+          "status": "unmapped",
+          "reason": "在版本 1.0.0 中没有可跳转的对应章节：版本 1.1.0→1.0.0 上节点 guide-installation 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        },
+        "2.0.0": {
+          "status": "unique",
+          "target": {
+            "nodeId": "guide-installation",
+            "version": "2.0.0",
+            "path": "/guide/installation",
+            "title": "安装"
+          },
+          "candidates": [],
+          "trail": [
+            "e-install-11-20"
+          ],
+          "hops": 1
+        },
+        "2.1.0": {
+          "status": "unique",
+          "target": {
+            "nodeId": "guide-installation",
+            "version": "2.1.0",
+            "path": "/guide/installation",
+            "title": "安装"
+          },
+          "candidates": [],
+          "trail": [
+            "e-install-11-20",
+            "e-install-20-21"
+          ],
+          "hops": 2
+        },
+        "3.0.0-beta": {
+          "status": "unique",
+          "target": {
+            "nodeId": "guide-installation",
+            "version": "3.0.0-beta",
+            "path": "/next/guide/installation",
+            "title": "安装"
+          },
+          "candidates": [],
+          "trail": [
+            "e-install-11-20",
+            "e-install-20-21",
+            "e-install-21-30"
+          ],
+          "hops": 3
+        }
+      },
+      "guide-quickstart": {
+        "1.0.0": {
+          "status": "unmapped",
+          "reason": "在版本 1.0.0 中没有可跳转的对应章节：版本 1.1.0→1.0.0 上节点 guide-quickstart 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        },
+        "2.0.0": {
+          "status": "unique",
+          "target": {
+            "nodeId": "guide-quickstart-v2",
+            "version": "2.0.0",
+            "path": "/guide/quickstart",
+            "title": "快速开始"
+          },
+          "candidates": [],
+          "trail": [
+            "e-quickstart-11-20"
+          ],
+          "hops": 1
+        },
+        "2.1.0": {
+          "status": "unique",
+          "target": {
+            "nodeId": "guide-quickstart-v2",
+            "version": "2.1.0",
+            "path": "/guide/quickstart",
+            "title": "快速开始"
+          },
+          "candidates": [],
+          "trail": [
+            "e-quickstart-11-20",
+            "e-quickstart-20-21"
+          ],
+          "hops": 2
+        },
+        "3.0.0-beta": {
+          "status": "unique",
+          "target": {
+            "nodeId": "guide-quickstart-v2",
+            "version": "3.0.0-beta",
+            "path": "/next/guide/quickstart",
+            "title": "快速开始"
+          },
+          "candidates": [],
+          "trail": [
+            "e-quickstart-11-20",
+            "e-quickstart-20-21",
+            "e-quickstart-21-30"
+          ],
+          "hops": 3
+        }
+      },
+      "component-dialog": {
+        "1.0.0": {
+          "status": "unmapped",
+          "reason": "在版本 1.0.0 中没有可跳转的对应章节：版本 1.1.0→1.0.0 上节点 component-dialog 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        },
+        "2.0.0": {
+          "status": "choose",
+          "reason": "该章节在目标版本被拆分为多个章节，请选择要查看的内容",
+          "target": null,
+          "candidates": [
+            {
+              "nodeId": "component-dialog-modal",
+              "version": "2.0.0",
+              "path": "/components/modal",
+              "title": "Modal 模态框",
+              "note": null,
+              "anchor": null
+            },
+            {
+              "nodeId": "component-dialog-drawer",
+              "version": "2.0.0",
+              "path": "/components/drawer",
+              "title": "Drawer 抽屉",
+              "note": null,
+              "anchor": null
+            }
+          ],
+          "trail": [],
+          "hops": 1
+        },
+        "2.1.0": {
+          "status": "choose",
+          "reason": "该章节在目标版本被拆分为多个章节，请选择要查看的内容",
+          "target": null,
+          "candidates": [
+            {
+              "nodeId": "component-dialog-modal",
+              "version": "2.1.0",
+              "path": "/components/modal",
+              "title": "Modal 模态框",
+              "note": null,
+              "anchor": null
+            },
+            {
+              "nodeId": "component-dialog-drawer",
+              "version": "2.1.0",
+              "path": "/components/drawer",
+              "title": "Drawer 抽屉",
+              "note": null,
+              "anchor": null
+            }
+          ],
+          "trail": [],
+          "hops": 2
+        },
+        "3.0.0-beta": {
+          "status": "choose",
+          "reason": "该章节在目标版本被拆分为多个章节，请选择要查看的内容",
+          "target": null,
+          "candidates": [
+            {
+              "nodeId": "component-dialog-modal",
+              "version": "3.0.0-beta",
+              "path": "/next/components/modal",
+              "title": "Modal 模态框",
+              "note": null,
+              "anchor": null
+            },
+            {
+              "nodeId": "component-dialog-drawer",
+              "version": "3.0.0-beta",
+              "path": "/next/components/drawer",
+              "title": "Drawer 抽屉",
+              "note": null,
+              "anchor": null
+            }
+          ],
+          "trail": [],
+          "hops": 3
+        }
+      },
+      "component-button": {
+        "1.0.0": {
+          "status": "unmapped",
+          "reason": "在版本 1.0.0 中没有可跳转的对应章节：版本 1.1.0→1.0.0 上节点 component-button 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        },
+        "2.0.0": {
+          "status": "unique",
+          "target": {
+            "nodeId": "component-button",
+            "version": "2.0.0",
+            "path": "/components/button",
+            "title": "Button 按钮"
+          },
+          "candidates": [],
+          "trail": [
+            "e-button-11-20"
+          ],
+          "hops": 1
+        },
+        "2.1.0": {
+          "status": "unique",
+          "target": {
+            "nodeId": "component-button",
+            "version": "2.1.0",
+            "path": "/components/button",
+            "title": "Button 按钮"
+          },
+          "candidates": [],
+          "trail": [
+            "e-button-11-20",
+            "e-button-20-21"
+          ],
+          "hops": 2
+        },
+        "3.0.0-beta": {
+          "status": "unique",
+          "target": {
+            "nodeId": "component-button",
+            "version": "3.0.0-beta",
+            "path": "/next/components/button",
+            "title": "Button 按钮"
+          },
+          "candidates": [],
+          "trail": [
+            "e-button-11-20",
+            "e-button-20-21",
+            "e-button-21-30"
+          ],
+          "hops": 3
+        }
+      }
+    },
+    "2.0.0": {
+      "guide-installation": {
+        "1.0.0": {
+          "status": "unmapped",
+          "reason": "在版本 1.0.0 中没有可跳转的对应章节：版本 1.1.0→1.0.0 上节点 guide-installation 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        },
+        "1.1.0": {
+          "status": "unique",
+          "target": {
+            "nodeId": "guide-installation",
+            "version": "1.1.0",
+            "path": "/v1/guide/installation",
+            "title": "安装"
+          },
+          "candidates": [],
+          "trail": [
+            "e-install-20-11"
+          ],
+          "hops": 1
+        },
+        "2.1.0": {
+          "status": "unique",
+          "target": {
+            "nodeId": "guide-installation",
+            "version": "2.1.0",
+            "path": "/guide/installation",
+            "title": "安装"
+          },
+          "candidates": [],
+          "trail": [
+            "e-install-20-21"
+          ],
+          "hops": 1
+        },
+        "3.0.0-beta": {
+          "status": "unique",
+          "target": {
+            "nodeId": "guide-installation",
+            "version": "3.0.0-beta",
+            "path": "/next/guide/installation",
+            "title": "安装"
+          },
+          "candidates": [],
+          "trail": [
+            "e-install-20-21",
+            "e-install-21-30"
+          ],
+          "hops": 2
+        }
+      },
+      "guide-quickstart-v2": {
+        "1.0.0": {
+          "status": "unmapped",
+          "reason": "在版本 1.0.0 中没有可跳转的对应章节：版本 1.1.0→1.0.0 上节点 guide-quickstart 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        },
+        "1.1.0": {
+          "status": "unique",
+          "target": {
+            "nodeId": "guide-quickstart",
+            "version": "1.1.0",
+            "path": "/v1/guide/quickstart",
+            "title": "快速开始"
+          },
+          "candidates": [],
+          "trail": [
+            "e-quickstart-20-11"
+          ],
+          "hops": 1
+        },
+        "2.1.0": {
+          "status": "unique",
+          "target": {
+            "nodeId": "guide-quickstart-v2",
+            "version": "2.1.0",
+            "path": "/guide/quickstart",
+            "title": "快速开始"
+          },
+          "candidates": [],
+          "trail": [
+            "e-quickstart-20-21"
+          ],
+          "hops": 1
+        },
+        "3.0.0-beta": {
+          "status": "unique",
+          "target": {
+            "nodeId": "guide-quickstart-v2",
+            "version": "3.0.0-beta",
+            "path": "/next/guide/quickstart",
+            "title": "快速开始"
+          },
+          "candidates": [],
+          "trail": [
+            "e-quickstart-20-21",
+            "e-quickstart-21-30"
+          ],
+          "hops": 2
+        }
+      },
+      "component-dialog-modal": {
+        "1.0.0": {
+          "status": "unmapped",
+          "reason": "在版本 1.0.0 中没有可跳转的对应章节：版本 1.1.0→1.0.0 上节点 component-dialog 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        },
+        "1.1.0": {
+          "status": "unique",
+          "target": {
+            "nodeId": "component-dialog",
+            "version": "1.1.0",
+            "path": "/v1/components/dialog",
+            "title": "Dialog 对话框"
+          },
+          "candidates": [],
+          "trail": [
+            "e-modal-20-11"
+          ],
+          "hops": 1
+        },
+        "2.1.0": {
+          "status": "unique",
+          "target": {
+            "nodeId": "component-dialog-modal",
+            "version": "2.1.0",
+            "path": "/components/modal",
+            "title": "Modal 模态框"
+          },
+          "candidates": [],
+          "trail": [
+            "e-modal-20-21"
+          ],
+          "hops": 1
+        },
+        "3.0.0-beta": {
+          "status": "unique",
+          "target": {
+            "nodeId": "component-dialog-modal",
+            "version": "3.0.0-beta",
+            "path": "/next/components/modal",
+            "title": "Modal 模态框"
+          },
+          "candidates": [],
+          "trail": [
+            "e-modal-20-21",
+            "e-modal-21-30"
+          ],
+          "hops": 2
+        }
+      },
+      "component-dialog-drawer": {
+        "1.0.0": {
+          "status": "unmapped",
+          "reason": "在版本 1.0.0 中没有可跳转的对应章节：版本 1.1.0→1.0.0 上节点 component-dialog 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        },
+        "1.1.0": {
+          "status": "unique",
+          "target": {
+            "nodeId": "component-dialog",
+            "version": "1.1.0",
+            "path": "/v1/components/dialog",
+            "title": "Dialog 对话框"
+          },
+          "candidates": [],
+          "trail": [
+            "e-drawer-20-11"
+          ],
+          "hops": 1
+        },
+        "2.1.0": {
+          "status": "unique",
+          "target": {
+            "nodeId": "component-dialog-drawer",
+            "version": "2.1.0",
+            "path": "/components/drawer",
+            "title": "Drawer 抽屉"
+          },
+          "candidates": [],
+          "trail": [
+            "e-drawer-20-21"
+          ],
+          "hops": 1
+        },
+        "3.0.0-beta": {
+          "status": "unique",
+          "target": {
+            "nodeId": "component-dialog-drawer",
+            "version": "3.0.0-beta",
+            "path": "/next/components/drawer",
+            "title": "Drawer 抽屉"
+          },
+          "candidates": [],
+          "trail": [
+            "e-drawer-20-21",
+            "e-drawer-21-30"
+          ],
+          "hops": 2
+        }
+      },
+      "component-button": {
+        "1.0.0": {
+          "status": "unmapped",
+          "reason": "在版本 1.0.0 中没有可跳转的对应章节：版本 1.1.0→1.0.0 上节点 component-button 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        },
+        "1.1.0": {
+          "status": "unique",
+          "target": {
+            "nodeId": "component-button",
+            "version": "1.1.0",
+            "path": "/v1/components/button",
+            "title": "Button 按钮"
+          },
+          "candidates": [],
+          "trail": [
+            "e-button-20-11"
+          ],
+          "hops": 1
+        },
+        "2.1.0": {
+          "status": "unique",
+          "target": {
+            "nodeId": "component-button",
+            "version": "2.1.0",
+            "path": "/components/button",
+            "title": "Button 按钮"
+          },
+          "candidates": [],
+          "trail": [
+            "e-button-20-21"
+          ],
+          "hops": 1
+        },
+        "3.0.0-beta": {
+          "status": "unique",
+          "target": {
+            "nodeId": "component-button",
+            "version": "3.0.0-beta",
+            "path": "/next/components/button",
+            "title": "Button 按钮"
+          },
+          "candidates": [],
+          "trail": [
+            "e-button-20-21",
+            "e-button-21-30"
+          ],
+          "hops": 2
+        }
+      },
+      "guide-changelog": {
+        "1.0.0": {
+          "status": "unmapped",
+          "reason": "在版本 1.0.0 中没有可跳转的对应章节：版本 2.0.0→1.1.0 上节点 guide-changelog 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        },
+        "1.1.0": {
+          "status": "unmapped",
+          "reason": "在版本 1.1.0 中没有可跳转的对应章节：版本 2.0.0→1.1.0 上节点 guide-changelog 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        },
+        "2.1.0": {
+          "status": "unmapped",
+          "reason": "在版本 2.1.0 中没有可跳转的对应章节：版本 2.0.0→2.1.0 上节点 guide-changelog 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        },
+        "3.0.0-beta": {
+          "status": "unmapped",
+          "reason": "在版本 3.0.0-beta 中没有可跳转的对应章节：版本 2.0.0→2.1.0 上节点 guide-changelog 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        }
+      }
+    },
+    "2.1.0": {
+      "guide-installation": {
+        "1.0.0": {
+          "status": "unmapped",
+          "reason": "在版本 1.0.0 中没有可跳转的对应章节：版本 2.1.0→2.0.0 上节点 guide-installation 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        },
+        "1.1.0": {
+          "status": "unmapped",
+          "reason": "在版本 1.1.0 中没有可跳转的对应章节：版本 2.1.0→2.0.0 上节点 guide-installation 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        },
+        "2.0.0": {
+          "status": "unmapped",
+          "reason": "在版本 2.0.0 中没有可跳转的对应章节：版本 2.1.0→2.0.0 上节点 guide-installation 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        },
+        "3.0.0-beta": {
+          "status": "unique",
+          "target": {
+            "nodeId": "guide-installation",
+            "version": "3.0.0-beta",
+            "path": "/next/guide/installation",
+            "title": "安装"
+          },
+          "candidates": [],
+          "trail": [
+            "e-install-21-30"
+          ],
+          "hops": 1
+        }
+      },
+      "guide-quickstart-v2": {
+        "1.0.0": {
+          "status": "unmapped",
+          "reason": "在版本 1.0.0 中没有可跳转的对应章节：版本 2.1.0→2.0.0 上节点 guide-quickstart-v2 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        },
+        "1.1.0": {
+          "status": "unmapped",
+          "reason": "在版本 1.1.0 中没有可跳转的对应章节：版本 2.1.0→2.0.0 上节点 guide-quickstart-v2 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        },
+        "2.0.0": {
+          "status": "unmapped",
+          "reason": "在版本 2.0.0 中没有可跳转的对应章节：版本 2.1.0→2.0.0 上节点 guide-quickstart-v2 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        },
+        "3.0.0-beta": {
+          "status": "unique",
+          "target": {
+            "nodeId": "guide-quickstart-v2",
+            "version": "3.0.0-beta",
+            "path": "/next/guide/quickstart",
+            "title": "快速开始"
+          },
+          "candidates": [],
+          "trail": [
+            "e-quickstart-21-30"
+          ],
+          "hops": 1
+        }
+      },
+      "component-dialog-modal": {
+        "1.0.0": {
+          "status": "unmapped",
+          "reason": "在版本 1.0.0 中没有可跳转的对应章节：版本 2.1.0→2.0.0 上节点 component-dialog-modal 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        },
+        "1.1.0": {
+          "status": "unmapped",
+          "reason": "在版本 1.1.0 中没有可跳转的对应章节：版本 2.1.0→2.0.0 上节点 component-dialog-modal 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        },
+        "2.0.0": {
+          "status": "unmapped",
+          "reason": "在版本 2.0.0 中没有可跳转的对应章节：版本 2.1.0→2.0.0 上节点 component-dialog-modal 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        },
+        "3.0.0-beta": {
+          "status": "unique",
+          "target": {
+            "nodeId": "component-dialog-modal",
+            "version": "3.0.0-beta",
+            "path": "/next/components/modal",
+            "title": "Modal 模态框"
+          },
+          "candidates": [],
+          "trail": [
+            "e-modal-21-30"
+          ],
+          "hops": 1
+        }
+      },
+      "component-dialog-drawer": {
+        "1.0.0": {
+          "status": "unmapped",
+          "reason": "在版本 1.0.0 中没有可跳转的对应章节：版本 2.1.0→2.0.0 上节点 component-dialog-drawer 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        },
+        "1.1.0": {
+          "status": "unmapped",
+          "reason": "在版本 1.1.0 中没有可跳转的对应章节：版本 2.1.0→2.0.0 上节点 component-dialog-drawer 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        },
+        "2.0.0": {
+          "status": "unmapped",
+          "reason": "在版本 2.0.0 中没有可跳转的对应章节：版本 2.1.0→2.0.0 上节点 component-dialog-drawer 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        },
+        "3.0.0-beta": {
+          "status": "unique",
+          "target": {
+            "nodeId": "component-dialog-drawer",
+            "version": "3.0.0-beta",
+            "path": "/next/components/drawer",
+            "title": "Drawer 抽屉"
+          },
+          "candidates": [],
+          "trail": [
+            "e-drawer-21-30"
+          ],
+          "hops": 1
+        }
+      },
+      "component-button": {
+        "1.0.0": {
+          "status": "unmapped",
+          "reason": "在版本 1.0.0 中没有可跳转的对应章节：版本 2.1.0→2.0.0 上节点 component-button 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        },
+        "1.1.0": {
+          "status": "unmapped",
+          "reason": "在版本 1.1.0 中没有可跳转的对应章节：版本 2.1.0→2.0.0 上节点 component-button 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        },
+        "2.0.0": {
+          "status": "unmapped",
+          "reason": "在版本 2.0.0 中没有可跳转的对应章节：版本 2.1.0→2.0.0 上节点 component-button 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        },
+        "3.0.0-beta": {
+          "status": "unique",
+          "target": {
+            "nodeId": "component-button",
+            "version": "3.0.0-beta",
+            "path": "/next/components/button",
+            "title": "Button 按钮"
+          },
+          "candidates": [],
+          "trail": [
+            "e-button-21-30"
+          ],
+          "hops": 1
+        }
+      },
+      "guide-changelog": {
+        "1.0.0": {
+          "status": "unmapped",
+          "reason": "在版本 1.0.0 中没有可跳转的对应章节：版本 2.1.0→2.0.0 上节点 guide-changelog 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        },
+        "1.1.0": {
+          "status": "unmapped",
+          "reason": "在版本 1.1.0 中没有可跳转的对应章节：版本 2.1.0→2.0.0 上节点 guide-changelog 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        },
+        "2.0.0": {
+          "status": "unmapped",
+          "reason": "在版本 2.0.0 中没有可跳转的对应章节：版本 2.1.0→2.0.0 上节点 guide-changelog 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        },
+        "3.0.0-beta": {
+          "status": "unmapped",
+          "reason": "在版本 3.0.0-beta 中没有可跳转的对应章节：版本 2.1.0→3.0.0-beta 上节点 guide-changelog 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        }
+      },
+      "guide-migration-21": {
+        "1.0.0": {
+          "status": "unmapped",
+          "reason": "在版本 1.0.0 中没有可跳转的对应章节：版本 2.1.0→2.0.0 上节点 guide-migration-21 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        },
+        "1.1.0": {
+          "status": "unmapped",
+          "reason": "在版本 1.1.0 中没有可跳转的对应章节：版本 2.1.0→2.0.0 上节点 guide-migration-21 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        },
+        "2.0.0": {
+          "status": "unmapped",
+          "reason": "在版本 2.0.0 中没有可跳转的对应章节：版本 2.1.0→2.0.0 上节点 guide-migration-21 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        },
+        "3.0.0-beta": {
+          "status": "unmapped",
+          "reason": "在版本 3.0.0-beta 中没有可跳转的对应章节：版本 2.1.0→3.0.0-beta 上节点 guide-migration-21 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        }
+      }
+    },
+    "3.0.0-beta": {
+      "guide-installation": {
+        "1.0.0": {
+          "status": "unmapped",
+          "reason": "在版本 1.0.0 中没有可跳转的对应章节：版本 3.0.0-beta→2.1.0 上节点 guide-installation 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        },
+        "1.1.0": {
+          "status": "unmapped",
+          "reason": "在版本 1.1.0 中没有可跳转的对应章节：版本 3.0.0-beta→2.1.0 上节点 guide-installation 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        },
+        "2.0.0": {
+          "status": "unmapped",
+          "reason": "在版本 2.0.0 中没有可跳转的对应章节：版本 3.0.0-beta→2.1.0 上节点 guide-installation 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        },
+        "2.1.0": {
+          "status": "unmapped",
+          "reason": "在版本 2.1.0 中没有可跳转的对应章节：版本 3.0.0-beta→2.1.0 上节点 guide-installation 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        }
+      },
+      "guide-quickstart-v2": {
+        "1.0.0": {
+          "status": "unmapped",
+          "reason": "在版本 1.0.0 中没有可跳转的对应章节：版本 3.0.0-beta→2.1.0 上节点 guide-quickstart-v2 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        },
+        "1.1.0": {
+          "status": "unmapped",
+          "reason": "在版本 1.1.0 中没有可跳转的对应章节：版本 3.0.0-beta→2.1.0 上节点 guide-quickstart-v2 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        },
+        "2.0.0": {
+          "status": "unmapped",
+          "reason": "在版本 2.0.0 中没有可跳转的对应章节：版本 3.0.0-beta→2.1.0 上节点 guide-quickstart-v2 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        },
+        "2.1.0": {
+          "status": "unmapped",
+          "reason": "在版本 2.1.0 中没有可跳转的对应章节：版本 3.0.0-beta→2.1.0 上节点 guide-quickstart-v2 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        }
+      },
+      "component-dialog-modal": {
+        "1.0.0": {
+          "status": "unmapped",
+          "reason": "在版本 1.0.0 中没有可跳转的对应章节：版本 3.0.0-beta→2.1.0 上节点 component-dialog-modal 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        },
+        "1.1.0": {
+          "status": "unmapped",
+          "reason": "在版本 1.1.0 中没有可跳转的对应章节：版本 3.0.0-beta→2.1.0 上节点 component-dialog-modal 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        },
+        "2.0.0": {
+          "status": "unmapped",
+          "reason": "在版本 2.0.0 中没有可跳转的对应章节：版本 3.0.0-beta→2.1.0 上节点 component-dialog-modal 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        },
+        "2.1.0": {
+          "status": "unmapped",
+          "reason": "在版本 2.1.0 中没有可跳转的对应章节：版本 3.0.0-beta→2.1.0 上节点 component-dialog-modal 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        }
+      },
+      "component-dialog-drawer": {
+        "1.0.0": {
+          "status": "unmapped",
+          "reason": "在版本 1.0.0 中没有可跳转的对应章节：版本 3.0.0-beta→2.1.0 上节点 component-dialog-drawer 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        },
+        "1.1.0": {
+          "status": "unmapped",
+          "reason": "在版本 1.1.0 中没有可跳转的对应章节：版本 3.0.0-beta→2.1.0 上节点 component-dialog-drawer 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        },
+        "2.0.0": {
+          "status": "unmapped",
+          "reason": "在版本 2.0.0 中没有可跳转的对应章节：版本 3.0.0-beta→2.1.0 上节点 component-dialog-drawer 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        },
+        "2.1.0": {
+          "status": "unmapped",
+          "reason": "在版本 2.1.0 中没有可跳转的对应章节：版本 3.0.0-beta→2.1.0 上节点 component-dialog-drawer 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        }
+      },
+      "component-button": {
+        "1.0.0": {
+          "status": "unmapped",
+          "reason": "在版本 1.0.0 中没有可跳转的对应章节：版本 3.0.0-beta→2.1.0 上节点 component-button 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        },
+        "1.1.0": {
+          "status": "unmapped",
+          "reason": "在版本 1.1.0 中没有可跳转的对应章节：版本 3.0.0-beta→2.1.0 上节点 component-button 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        },
+        "2.0.0": {
+          "status": "unmapped",
+          "reason": "在版本 2.0.0 中没有可跳转的对应章节：版本 3.0.0-beta→2.1.0 上节点 component-button 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        },
+        "2.1.0": {
+          "status": "unmapped",
+          "reason": "在版本 2.1.0 中没有可跳转的对应章节：版本 3.0.0-beta→2.1.0 上节点 component-button 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        }
+      },
+      "component-ai-assistant": {
+        "1.0.0": {
+          "status": "unmapped",
+          "reason": "在版本 1.0.0 中没有可跳转的对应章节：版本 3.0.0-beta→2.1.0 上节点 component-ai-assistant 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        },
+        "1.1.0": {
+          "status": "unmapped",
+          "reason": "在版本 1.1.0 中没有可跳转的对应章节：版本 3.0.0-beta→2.1.0 上节点 component-ai-assistant 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        },
+        "2.0.0": {
+          "status": "unmapped",
+          "reason": "在版本 2.0.0 中没有可跳转的对应章节：版本 3.0.0-beta→2.1.0 上节点 component-ai-assistant 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        },
+        "2.1.0": {
+          "status": "unmapped",
+          "reason": "在版本 2.1.0 中没有可跳转的对应章节：版本 3.0.0-beta→2.1.0 上节点 component-ai-assistant 没有迁移边（缺失目标，无法映射）",
+          "target": null,
+          "candidates": [],
+          "trail": [],
+          "hops": 0
+        }
+      }
+    }
+  },
+  "warnings": [
+    {
+      "severity": "warning",
+      "code": "DANGLING_EDGE",
+      "message": "边 e-dangling-demo 的源节点不存在：1.1.0|guide-deprecated-topic（该边会被跳过，运行时表现为缺失目标提示）"
+    },
+    {
+      "severity": "warning",
+      "code": "DANGLING_EDGE",
+      "message": "边 e-dangling-demo 的目标节点不存在：2.0.0|guide-removed-topic（该边会被跳过，运行时表现为缺失目标提示）"
+    }
+  ],
+  "published": "2026-10-02T01:46:21.602Z"
+}

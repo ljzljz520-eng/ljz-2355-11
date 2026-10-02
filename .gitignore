@@ -23,3 +23,6 @@ __pycache__/
 *.log
 .env
 .env.*
+
+# Version catalog build temp dirs
+docs/.vitepress/versioning/.tmp-*

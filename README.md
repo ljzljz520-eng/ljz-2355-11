@@ -55,3 +55,12 @@ npm run docs:preview
 examples/button/basic.vue
 :::
 ```
+
+## 🧭 多版本导航（版本 API / 迁移边 / 术语版本隔离）
+
+- 构建版本目录：`npm run version:build`（拉取版本 API → 校验物化 → 原子发布绑定 commit 的目录）
+- 运行测试：`npm run test:versioning`
+- 功能演示：启动后访问 `/versioning-demo`
+- 设计与权衡（构建时物化 vs 按请求求路径）：`docs/.vitepress/versioning/DESIGN.md`
+- 验收矩阵：`docs/.vitepress/versioning/ACCEPTANCE.md`
+- PG 存储模型：`docs/.vitepress/versioning/schema/postgres.sql`

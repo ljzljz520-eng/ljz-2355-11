@@ -1,17 +1,20 @@
-# Button 按钮
+---
+title: Button 按钮
+docVersion: 2.0.0
+---
 
-常用的操作按钮。
+# Button 按钮 <VersionBadge />
 
-## 基础用法
+## 基础用法 {#basic}
 
-基础的按钮用法。
-
-::: demo 基础按钮示例
+::: demo 基础按钮用法
 examples/button/basic.vue
 :::
 
-## API
+## 加载状态 {#loading}
 
-### Attributes
+通过 `loading` 属性展示加载。
 
-<VpApi :props="[{ name: 'type', description: '类型', type: 'string', default: 'default' }]" />
+## 图标插槽 {#icon-slot}
+
+2.0 新增 `icon` 插槽；1.x 的 `icon-mode` 属性已不存在（从旧版切换时该锚点会提示无法迁移）。

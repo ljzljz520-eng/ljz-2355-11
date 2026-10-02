@@ -1,0 +1,41 @@
+[
+  {
+    "id": "guide-installation",
+    "title": "安装",
+    "path": "/next/guide/installation",
+    "status": "published"
+  },
+  {
+    "id": "guide-quickstart-v2",
+    "title": "快速开始",
+    "path": "/next/guide/quickstart",
+    "status": "published"
+  },
+  {
+    "id": "component-dialog-modal",
+    "title": "Modal 模态框",
+    "path": "/next/components/modal",
+    "status": "published",
+    "scope": "beta-preview"
+  },
+  {
+    "id": "component-dialog-drawer",
+    "title": "Drawer 抽屉",
+    "path": "/next/components/drawer",
+    "status": "published",
+    "scope": "beta-preview"
+  },
+  {
+    "id": "component-button",
+    "title": "Button 按钮",
+    "path": "/next/components/button",
+    "status": "published"
+  },
+  {
+    "id": "component-ai-assistant",
+    "title": "AI Assistant",
+    "path": "/next/components/ai-assistant",
+    "status": "published",
+    "scope": "beta-preview"
+  }
+]

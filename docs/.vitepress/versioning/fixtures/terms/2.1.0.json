@@ -1,0 +1,37 @@
+[
+  {
+    "id": "term-token-v2",
+    "slug": "token",
+    "scope": null,
+    "title": "设计令牌 (Token)",
+    "body": "2.1 中 Token 为运行时语义化令牌，新增组件级令牌覆盖能力。"
+  },
+  {
+    "id": "term-token-v2",
+    "slug": "token",
+    "scope": "css",
+    "title": "CSS 变量令牌",
+    "body": "覆盖颜色、间距、圆角、动效与字号。"
+  },
+  {
+    "id": "term-sdk",
+    "slug": "sdk",
+    "scope": null,
+    "title": "SDK 实例",
+    "body": "由 createSdk(config) 创建；2.1 新增 createSdk.lazy()。"
+  },
+  {
+    "id": "term-modal",
+    "slug": "modal",
+    "scope": null,
+    "title": "Modal",
+    "body": "2.1 的居中模态框组件。"
+  },
+  {
+    "id": "term-drawer",
+    "slug": "drawer",
+    "scope": null,
+    "title": "Drawer",
+    "body": "2.1 的侧滑容器组件。"
+  }
+]

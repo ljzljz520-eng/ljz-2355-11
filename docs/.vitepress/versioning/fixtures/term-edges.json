@@ -1,0 +1,113 @@
+[
+  {
+    "id": "te-token-10-11",
+    "fromVersion": "1.0.0", "toVersion": "1.1.0",
+    "fromTermId": "term-token", "toTermId": "term-token",
+    "kind": "identity"
+  },
+  {
+    "id": "te-app-10-11",
+    "fromVersion": "1.0.0", "toVersion": "1.1.0",
+    "fromTermId": "term-app", "toTermId": "term-app",
+    "kind": "identity"
+  },
+  {
+    "id": "te-dialog-10-11",
+    "fromVersion": "1.0.0", "toVersion": "1.1.0",
+    "fromTermId": "term-dialog", "toTermId": "term-dialog",
+    "kind": "identity"
+  },
+  {
+    "id": "te-token-11-20",
+    "fromVersion": "1.1.0", "toVersion": "2.0.0",
+    "fromTermId": "term-token", "toTermId": "term-token-v2",
+    "kind": "rename",
+    "note": "Token 语义从编译期 SCSS 变量变为运行时语义化令牌，定义已重写，不可沿用旧解释"
+  },
+  {
+    "id": "te-token-20-11",
+    "fromVersion": "2.0.0", "toVersion": "1.1.0",
+    "fromTermId": "term-token-v2", "toTermId": "term-token",
+    "kind": "rename",
+    "note": "旧版 Token 是编译期 SCSS 变量"
+  },
+  {
+    "id": "te-app-11-20",
+    "fromVersion": "1.1.0", "toVersion": "2.0.0",
+    "fromTermId": "term-app", "toTermId": "term-sdk",
+    "kind": "rename",
+    "note": "App 概念在 2.0 被 SDK 取代"
+  },
+  {
+    "id": "te-sdk-20-11",
+    "fromVersion": "2.0.0", "toVersion": "1.1.0",
+    "fromTermId": "term-sdk", "toTermId": "term-app",
+    "kind": "rename",
+    "note": "1.x 中对应的是 App 实例"
+  },
+  {
+    "id": "te-dialog-11-20-modal",
+    "fromVersion": "1.1.0", "toVersion": "2.0.0",
+    "fromTermId": "term-dialog", "toTermId": "term-modal",
+    "kind": "split",
+    "note": "Dialog 拆为 Modal 与 Drawer 两个概念"
+  },
+  {
+    "id": "te-dialog-11-20-drawer",
+    "fromVersion": "1.1.0", "toVersion": "2.0.0",
+    "fromTermId": "term-dialog", "toTermId": "term-drawer",
+    "kind": "split",
+    "note": "Dialog 拆为 Modal 与 Drawer 两个概念"
+  },
+  {
+    "id": "te-modal-20-11",
+    "fromVersion": "2.0.0", "toVersion": "1.1.0",
+    "fromTermId": "term-modal", "toTermId": "term-dialog",
+    "kind": "merge"
+  },
+  {
+    "id": "te-drawer-20-11",
+    "fromVersion": "2.0.0", "toVersion": "1.1.0",
+    "fromTermId": "term-drawer", "toTermId": "term-dialog",
+    "kind": "merge"
+  },
+
+  {
+    "id": "te-token-20-21",
+    "fromVersion": "2.0.0", "toVersion": "2.1.0",
+    "fromTermId": "term-token-v2", "toTermId": "term-token-v2",
+    "kind": "identity"
+  },
+  {
+    "id": "te-sdk-20-21",
+    "fromVersion": "2.0.0", "toVersion": "2.1.0",
+    "fromTermId": "term-sdk", "toTermId": "term-sdk",
+    "kind": "identity"
+  },
+  {
+    "id": "te-modal-20-21",
+    "fromVersion": "2.0.0", "toVersion": "2.1.0",
+    "fromTermId": "term-modal", "toTermId": "term-modal",
+    "kind": "identity"
+  },
+  {
+    "id": "te-drawer-20-21",
+    "fromVersion": "2.0.0", "toVersion": "2.1.0",
+    "fromTermId": "term-drawer", "toTermId": "term-drawer",
+    "kind": "removed",
+    "note": "2.1 文档暂移除了 Drawer 术语（术语下线示例）"
+  },
+
+  {
+    "id": "te-token-21-30",
+    "fromVersion": "2.1.0", "toVersion": "3.0.0-beta",
+    "fromTermId": "term-token-v2", "toTermId": "term-token-v2",
+    "kind": "identity"
+  },
+  {
+    "id": "te-sdk-21-30",
+    "fromVersion": "2.1.0", "toVersion": "3.0.0-beta",
+    "fromTermId": "term-sdk", "toTermId": "term-sdk",
+    "kind": "identity"
+  }
+]

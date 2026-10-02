@@ -1,15 +1,20 @@
 {
   "type": "module",
-  "name": "2355",
+  "name": "versioned-vitepress-docs",
   "version": "1.0.0",
-  "description": "",
+  "description": "VitePress 多版本文档中心：版本导航、迁移边、术语版本隔离、绑定提交的构建目录",
   "main": "index.js",
   "scripts": {
+    "docs:predev": "node docs/.vitepress/versioning/build.js",
+    "docs:prebuild": "node docs/.vitepress/versioning/build.js",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:preview": "vitepress preview docs",
+    "version:build": "node docs/.vitepress/versioning/build.js",
+    "version:build:fail": "node docs/.vitepress/versioning/build.js --fail-index",
+    "test:versioning": "node --test docs/.vitepress/versioning/tests/"
   },
-  "keywords": [],
+  "keywords": ["vitepress", "versioning", "docs", "migration"],
   "author": "",
   "license": "ISC",
   "devDependencies": {

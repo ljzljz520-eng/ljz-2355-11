@@ -1,0 +1,30 @@
+[
+  {
+    "id": "term-token",
+    "slug": "token",
+    "scope": null,
+    "title": "设计令牌 (Token)",
+    "body": "1.x 中 Token 仅指全局 SCSS 变量（如 $color-primary），构建时替换，运行时不可变。"
+  },
+  {
+    "id": "term-token",
+    "slug": "token",
+    "scope": "css",
+    "title": "CSS 变量令牌",
+    "body": "1.x 少量通过 CSS Custom Properties 暴露的主题变量，仅限颜色。"
+  },
+  {
+    "id": "term-app",
+    "slug": "app",
+    "scope": null,
+    "title": "App 实例",
+    "body": "由 createApp(component) 创建，调用 app.mount('#app') 挂载。"
+  },
+  {
+    "id": "term-dialog",
+    "slug": "dialog",
+    "scope": null,
+    "title": "Dialog",
+    "body": "1.x 的对话框组件，通过 type 属性在居中弹窗与侧滑抽屉间切换。"
+  }
+]

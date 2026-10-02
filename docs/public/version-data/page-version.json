@@ -1,0 +1,164 @@
+[
+  {
+    "pathPrefix": "/v1/",
+    "version": "1.0.0",
+    "path": "/v1/guide/installation",
+    "nodeId": "guide-installation"
+  },
+  {
+    "pathPrefix": "/v1/",
+    "version": "1.0.0",
+    "path": "/v1/guide/quickstart",
+    "nodeId": "guide-quickstart"
+  },
+  {
+    "pathPrefix": "/v1/",
+    "version": "1.0.0",
+    "path": "/v1/components/dialog",
+    "nodeId": "component-dialog"
+  },
+  {
+    "pathPrefix": "/v1/",
+    "version": "1.0.0",
+    "path": "/v1/components/button",
+    "nodeId": "component-button"
+  },
+  {
+    "pathPrefix": "/v1/",
+    "version": "1.1.0",
+    "path": "/v1/guide/installation",
+    "nodeId": "guide-installation"
+  },
+  {
+    "pathPrefix": "/v1/",
+    "version": "1.1.0",
+    "path": "/v1/guide/quickstart",
+    "nodeId": "guide-quickstart"
+  },
+  {
+    "pathPrefix": "/v1/",
+    "version": "1.1.0",
+    "path": "/v1/components/dialog",
+    "nodeId": "component-dialog"
+  },
+  {
+    "pathPrefix": "/v1/",
+    "version": "1.1.0",
+    "path": "/v1/components/button",
+    "nodeId": "component-button"
+  },
+  {
+    "pathPrefix": "/",
+    "version": "2.0.0",
+    "path": "/guide/installation",
+    "nodeId": "guide-installation"
+  },
+  {
+    "pathPrefix": "/",
+    "version": "2.0.0",
+    "path": "/guide/quickstart",
+    "nodeId": "guide-quickstart-v2"
+  },
+  {
+    "pathPrefix": "/",
+    "version": "2.0.0",
+    "path": "/components/modal",
+    "nodeId": "component-dialog-modal"
+  },
+  {
+    "pathPrefix": "/",
+    "version": "2.0.0",
+    "path": "/components/drawer",
+    "nodeId": "component-dialog-drawer"
+  },
+  {
+    "pathPrefix": "/",
+    "version": "2.0.0",
+    "path": "/components/button",
+    "nodeId": "component-button"
+  },
+  {
+    "pathPrefix": "/",
+    "version": "2.0.0",
+    "path": "/guide/changelog",
+    "nodeId": "guide-changelog"
+  },
+  {
+    "pathPrefix": "/next/",
+    "version": "2.1.0",
+    "path": "/guide/installation",
+    "nodeId": "guide-installation"
+  },
+  {
+    "pathPrefix": "/next/",
+    "version": "2.1.0",
+    "path": "/guide/quickstart",
+    "nodeId": "guide-quickstart-v2"
+  },
+  {
+    "pathPrefix": "/next/",
+    "version": "2.1.0",
+    "path": "/components/modal",
+    "nodeId": "component-dialog-modal"
+  },
+  {
+    "pathPrefix": "/next/",
+    "version": "2.1.0",
+    "path": "/components/drawer",
+    "nodeId": "component-dialog-drawer"
+  },
+  {
+    "pathPrefix": "/next/",
+    "version": "2.1.0",
+    "path": "/components/button",
+    "nodeId": "component-button"
+  },
+  {
+    "pathPrefix": "/next/",
+    "version": "2.1.0",
+    "path": "/guide/changelog",
+    "nodeId": "guide-changelog"
+  },
+  {
+    "pathPrefix": "/next/",
+    "version": "2.1.0",
+    "path": "/guide/migrating",
+    "nodeId": "guide-migration-21"
+  },
+  {
+    "pathPrefix": "/next/",
+    "version": "3.0.0-beta",
+    "path": "/next/guide/installation",
+    "nodeId": "guide-installation"
+  },
+  {
+    "pathPrefix": "/next/",
+    "version": "3.0.0-beta",
+    "path": "/next/guide/quickstart",
+    "nodeId": "guide-quickstart-v2"
+  },
+  {
+    "pathPrefix": "/next/",
+    "version": "3.0.0-beta",
+    "path": "/next/components/modal",
+    "nodeId": "component-dialog-modal"
+  },
+  {
+    "pathPrefix": "/next/",
+    "version": "3.0.0-beta",
+    "path": "/next/components/drawer",
+    "nodeId": "component-dialog-drawer"
+  },
+  {
+    "pathPrefix": "/next/",
+    "version": "3.0.0-beta",
+    "path": "/next/components/button",
+    "nodeId": "component-button"
+  },
+  {
+    "pathPrefix": "/next/",
+    "version": "3.0.0-beta",
+    "path": "/next/components/ai-assistant",
+    "nodeId": "component-ai-assistant"
+  }
+]

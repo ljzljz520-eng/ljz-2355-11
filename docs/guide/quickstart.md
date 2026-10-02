@@ -1,25 +1,33 @@
-# 快速开始
+---
+title: 快速开始
+docVersion: 2.0.0
+---
 
-本节将介绍如何在项目中使用 My Component Lib。
+# 快速开始 <VersionBadge />
 
-## 引入组件
+## 初始化 {#init}
 
-在你的 Vue 3 项目中，你可以按需引入或全局引入组件。
+通过 {{t:sdk}} 初始化（取代了 1.x 的 {{t:app}}）：
 
-### 全局引入
+```js
+import { createSdk } from 'my-lib'
 
-```javascript
-import { createApp } from 'vue'
-import App from './App.vue'
-import MyComponentLib from 'my-component-lib'
-
-const app = createApp(App)
-app.use(MyComponentLib)
-app.mount('#app')
+const sdk = createSdk({ baseURL: '/api' })
 ```
 
-### 基础用法
+## 第一次请求 {#first-request}
 
-::: demo 基础按钮用法
-examples/button/basic.vue
-:::
+<details data-block-id="b-request-interceptors">
+<summary>拦截器（点击展开）</summary>
+
+```js
+sdk.interceptors.request.use((req) => req)
+```
+
+</details>
+
+## 主题令牌 {#theme}
+
+2.0 的 {{t:token}} 是运行时可变的语义化令牌；CSS 层面见 {{t:token@css}}。
+
+> 查看 1.x 旧示例时，悬浮的术语解释来自 1.1 词典，不会把 2.0 的新定义拼到旧文档上。

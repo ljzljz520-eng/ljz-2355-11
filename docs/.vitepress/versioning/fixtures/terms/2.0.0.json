@@ -1,0 +1,37 @@
+[
+  {
+    "id": "term-token-v2",
+    "slug": "token",
+    "scope": null,
+    "title": "设计令牌 (Token)",
+    "body": "2.0 中 Token 是运行时可变的语义化令牌（--vp-color-brand 等），支持动态换肤；不再有 SCSS 编译期变量。"
+  },
+  {
+    "id": "term-token-v2",
+    "slug": "token",
+    "scope": "css",
+    "title": "CSS 变量令牌",
+    "body": "2.0 的令牌统一以 CSS Custom Properties 提供，覆盖颜色、间距、圆角与动效。"
+  },
+  {
+    "id": "term-sdk",
+    "slug": "sdk",
+    "scope": null,
+    "title": "SDK 实例",
+    "body": "由 createSdk(config) 创建，返回带拦截器与插件系统的实例，取代了 1.x 的 App。"
+  },
+  {
+    "id": "term-modal",
+    "slug": "modal",
+    "scope": null,
+    "title": "Modal",
+    "body": "2.0 的居中模态框组件，由旧 Dialog 拆分而来。"
+  },
+  {
+    "id": "term-drawer",
+    "slug": "drawer",
+    "scope": null,
+    "title": "Drawer",
+    "body": "2.0 的侧滑容器组件，由旧 Dialog 拆分而来，支持四个方向。"
+  }
+]
