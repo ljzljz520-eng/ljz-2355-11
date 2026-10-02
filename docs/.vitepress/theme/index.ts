@@ -2,14 +2,20 @@ import DefaultTheme from 'vitepress/theme'
 import VpDemo from './components/VpDemo.vue'
 import VpApi from './components/VpApi.vue'
 import BaseButton from './components/BaseButton.vue'
+import VersionedTerm from './components/VersionedTerm.vue'
+import OutdatedNotice from './components/OutdatedNotice.vue'
+import VersionLayout from './components/VersionLayout.vue'
 import './custom.css'
 
 export default {
   extends: DefaultTheme,
+  Layout: VersionLayout,
   enhanceApp({ app }) {
     app.component('VpDemo', VpDemo)
     app.component('VpApi', VpApi)
     app.component('BaseButton', BaseButton)
+    app.component('VersionedTerm', VersionedTerm)
+    app.component('OutdatedNotice', OutdatedNotice)
     
     // Auto register examples
     const examples = import.meta.glob('../../examples/**/*.vue', { eager: true })

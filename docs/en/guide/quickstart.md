@@ -1,8 +1,8 @@
 # Quick Start
 
-This section will introduce how to use My Component Lib in your project.
+This section describes how to use My Component Lib with product v2.
 
-## Import Components
+## Import components {#import}
 
 In your Vue 3 project, you can import components on demand or globally.
 
@@ -21,5 +21,5 @@ app.mount('#app')
 ### Basic Usage
 
 ::: demo Basic Button Usage
-examples/button/basic.vue
+examples/button/basic-en.vue
 :::

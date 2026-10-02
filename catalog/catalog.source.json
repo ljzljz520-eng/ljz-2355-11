@@ -1,0 +1,612 @@
+{
+  "schemaVersion": 1,
+  "maxMigrationHops": 5,
+  "releases": [
+    {
+      "id": "v1",
+      "name": "v1.0 存档版",
+      "status": "archived",
+      "visibility": "public",
+      "access": "granted",
+      "basePath": "/v1",
+      "createdAt": "2024-02-01T00:00:00.000Z",
+      "routeBase": {
+        "zh-CN": "/v1",
+        "en-US": "/en/v1"
+      }
+    },
+    {
+      "id": "v2",
+      "name": "v2.3 稳定版",
+      "status": "stable",
+      "visibility": "public",
+      "access": "granted",
+      "basePath": "",
+      "createdAt": "2025-04-15T00:00:00.000Z",
+      "routeBase": {
+        "zh-CN": "",
+        "en-US": "/en"
+      }
+    },
+    {
+      "id": "v3",
+      "name": "v3.0 最新版",
+      "status": "latest",
+      "visibility": "public",
+      "access": "granted",
+      "basePath": "/v3",
+      "createdAt": "2026-08-01T00:00:00.000Z",
+      "routeBase": {
+        "zh-CN": "/v3",
+        "en-US": "/en/v3"
+      }
+    },
+    {
+      "id": "v4",
+      "name": "v4.0 私有预览",
+      "status": "draft",
+      "visibility": "private",
+      "access": "revoked",
+      "basePath": "/v4",
+      "createdAt": "2026-09-20T00:00:00.000Z",
+      "routeBase": {
+        "zh-CN": "/v4",
+        "en-US": "/en/v4"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "releaseId": "v1",
+      "locale": "zh-CN",
+      "id": "guide-start",
+      "chapter": "指南",
+      "title": "快速上手",
+      "path": "/guide/start",
+      "anchors": [
+        {
+          "id": "install-command",
+          "text": "安装命令"
+        },
+        {
+          "id": "import-component",
+          "text": "引入组件"
+        }
+      ]
+    },
+    {
+      "releaseId": "v1",
+      "locale": "zh-CN",
+      "id": "components-button",
+      "chapter": "组件",
+      "title": "Button 按钮",
+      "path": "/components/button",
+      "anchors": [
+        {
+          "id": "basic-usage",
+          "text": "基础用法"
+        }
+      ]
+    },
+    {
+      "releaseId": "v1",
+      "locale": "en-US",
+      "id": "guide-start",
+      "chapter": "Guide",
+      "title": "Getting Started",
+      "path": "/guide/start",
+      "anchors": [
+        {
+          "id": "install-command",
+          "text": "Install command"
+        },
+        {
+          "id": "import-component",
+          "text": "Import component"
+        }
+      ]
+    },
+    {
+      "releaseId": "v1",
+      "locale": "en-US",
+      "id": "components-button",
+      "chapter": "Components",
+      "title": "Button",
+      "path": "/components/button",
+      "anchors": [
+        {
+          "id": "basic-usage",
+          "text": "Basic usage"
+        }
+      ]
+    },
+    {
+      "releaseId": "v2",
+      "locale": "zh-CN",
+      "id": "guide-installation",
+      "chapter": "指南",
+      "title": "安装",
+      "path": "/guide/installation",
+      "anchors": [
+        {
+          "id": "install",
+          "text": "安装命令"
+        }
+      ]
+    },
+    {
+      "releaseId": "v2",
+      "locale": "zh-CN",
+      "id": "guide-quickstart",
+      "chapter": "指南",
+      "title": "快速开始",
+      "path": "/guide/quickstart",
+      "anchors": [
+        {
+          "id": "import",
+          "text": "引入组件"
+        }
+      ]
+    },
+    {
+      "releaseId": "v2",
+      "locale": "zh-CN",
+      "id": "components-button",
+      "chapter": "组件",
+      "title": "Button 按钮",
+      "path": "/components/button",
+      "anchors": [
+        {
+          "id": "basic-usage",
+          "text": "基础用法"
+        }
+      ]
+    },
+    {
+      "releaseId": "v2",
+      "locale": "en-US",
+      "id": "guide-installation",
+      "chapter": "Guide",
+      "title": "Installation",
+      "path": "/guide/installation",
+      "anchors": [
+        {
+          "id": "install",
+          "text": "Install command"
+        }
+      ]
+    },
+    {
+      "releaseId": "v2",
+      "locale": "en-US",
+      "id": "guide-quickstart",
+      "chapter": "Guide",
+      "title": "Quick Start",
+      "path": "/guide/quickstart",
+      "anchors": [
+        {
+          "id": "import",
+          "text": "Import components"
+        }
+      ]
+    },
+    {
+      "releaseId": "v2",
+      "locale": "en-US",
+      "id": "components-button",
+      "chapter": "Components",
+      "title": "Button",
+      "path": "/components/button",
+      "anchors": [
+        {
+          "id": "basic-usage",
+          "text": "Basic usage"
+        }
+      ]
+    },
+    {
+      "releaseId": "v3",
+      "locale": "zh-CN",
+      "id": "guide-start",
+      "chapter": "指南",
+      "title": "快速上手（合并版）",
+      "path": "/guide/start",
+      "anchors": [
+        {
+          "id": "install",
+          "text": "安装命令"
+        },
+        {
+          "id": "import",
+          "text": "引入组件"
+        }
+      ]
+    },
+    {
+      "releaseId": "v3",
+      "locale": "zh-CN",
+      "id": "components-button",
+      "chapter": "组件",
+      "title": "Button 按钮",
+      "path": "/components/button",
+      "anchors": [
+        {
+          "id": "basic-usage",
+          "text": "基础用法"
+        }
+      ]
+    },
+    {
+      "releaseId": "v3",
+      "locale": "en-US",
+      "id": "guide-start",
+      "chapter": "Guide",
+      "title": "Getting Started (merged)",
+      "path": "/guide/start",
+      "anchors": [
+        {
+          "id": "install",
+          "text": "Install command"
+        },
+        {
+          "id": "import",
+          "text": "Import components"
+        }
+      ]
+    },
+    {
+      "releaseId": "v3",
+      "locale": "en-US",
+      "id": "components-button",
+      "chapter": "Components",
+      "title": "Button",
+      "path": "/components/button",
+      "anchors": [
+        {
+          "id": "basic-usage",
+          "text": "Basic usage"
+        }
+      ]
+    },
+    {
+      "releaseId": "v4",
+      "locale": "zh-CN",
+      "id": "components-button-next",
+      "chapter": "组件",
+      "title": "Button 按钮（私有预览）",
+      "path": "/components/button",
+      "anchors": [
+        {
+          "id": "basic-usage",
+          "text": "基础用法"
+        }
+      ]
+    },
+    {
+      "releaseId": "v4",
+      "locale": "en-US",
+      "id": "components-button-next",
+      "chapter": "Components",
+      "title": "Button (private preview)",
+      "path": "/components/button",
+      "anchors": [
+        {
+          "id": "basic-usage",
+          "text": "Basic usage"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": {
+        "releaseId": "v1",
+        "locale": "zh-CN",
+        "nodeId": "guide-start"
+      },
+      "to": {
+        "releaseId": "v2",
+        "locale": "zh-CN",
+        "nodeId": "guide-installation"
+      },
+      "type": "split",
+      "anchorMap": {
+        "install-command": "install"
+      },
+      "note": "安装内容拆分到《安装》"
+    },
+    {
+      "from": {
+        "releaseId": "v1",
+        "locale": "zh-CN",
+        "nodeId": "guide-start"
+      },
+      "to": {
+        "releaseId": "v2",
+        "locale": "zh-CN",
+        "nodeId": "guide-quickstart"
+      },
+      "type": "split",
+      "anchorMap": {
+        "import-component": "import"
+      },
+      "note": "组件引入内容拆分到《快速开始》"
+    },
+    {
+      "from": {
+        "releaseId": "v2",
+        "locale": "zh-CN",
+        "nodeId": "guide-installation"
+      },
+      "to": {
+        "releaseId": "v3",
+        "locale": "zh-CN",
+        "nodeId": "guide-start"
+      },
+      "type": "merge",
+      "anchorMap": {
+        "install": "install"
+      },
+      "note": "安装与快速开始在 v3 合并"
+    },
+    {
+      "from": {
+        "releaseId": "v2",
+        "locale": "zh-CN",
+        "nodeId": "guide-quickstart"
+      },
+      "to": {
+        "releaseId": "v3",
+        "locale": "zh-CN",
+        "nodeId": "guide-start"
+      },
+      "type": "merge",
+      "anchorMap": {
+        "import": "import"
+      },
+      "note": "安装与快速开始在 v3 合并"
+    },
+    {
+      "from": {
+        "releaseId": "v1",
+        "locale": "zh-CN",
+        "nodeId": "components-button"
+      },
+      "to": {
+        "releaseId": "v2",
+        "locale": "zh-CN",
+        "nodeId": "components-button"
+      },
+      "type": "same",
+      "anchorMap": {
+        "basic-usage": "basic-usage"
+      },
+      "note": "按钮文档节点保持稳定"
+    },
+    {
+      "from": {
+        "releaseId": "v2",
+        "locale": "zh-CN",
+        "nodeId": "components-button"
+      },
+      "to": {
+        "releaseId": "v3",
+        "locale": "zh-CN",
+        "nodeId": "components-button"
+      },
+      "type": "same",
+      "anchorMap": {
+        "basic-usage": "basic-usage"
+      },
+      "note": "按钮文档节点保持稳定"
+    },
+    {
+      "from": {
+        "releaseId": "v3",
+        "locale": "zh-CN",
+        "nodeId": "components-button"
+      },
+      "to": {
+        "releaseId": "v4",
+        "locale": "zh-CN",
+        "nodeId": "components-button-next"
+      },
+      "type": "private",
+      "anchorMap": {
+        "basic-usage": "basic-usage"
+      },
+      "note": "私有预览入口；撤权后不可访问"
+    },
+    {
+      "from": {
+        "releaseId": "v1",
+        "locale": "en-US",
+        "nodeId": "guide-start"
+      },
+      "to": {
+        "releaseId": "v2",
+        "locale": "en-US",
+        "nodeId": "guide-installation"
+      },
+      "type": "split",
+      "anchorMap": {
+        "install-command": "install"
+      },
+      "note": "Installation material moved to Installation"
+    },
+    {
+      "from": {
+        "releaseId": "v1",
+        "locale": "en-US",
+        "nodeId": "guide-start"
+      },
+      "to": {
+        "releaseId": "v2",
+        "locale": "en-US",
+        "nodeId": "guide-quickstart"
+      },
+      "type": "split",
+      "anchorMap": {
+        "import-component": "import"
+      },
+      "note": "Import material moved to Quick Start"
+    },
+    {
+      "from": {
+        "releaseId": "v2",
+        "locale": "en-US",
+        "nodeId": "guide-installation"
+      },
+      "to": {
+        "releaseId": "v3",
+        "locale": "en-US",
+        "nodeId": "guide-start"
+      },
+      "type": "merge",
+      "anchorMap": {
+        "install": "install"
+      },
+      "note": "Installation and Quick Start merge in v3"
+    },
+    {
+      "from": {
+        "releaseId": "v2",
+        "locale": "en-US",
+        "nodeId": "guide-quickstart"
+      },
+      "to": {
+        "releaseId": "v3",
+        "locale": "en-US",
+        "nodeId": "guide-start"
+      },
+      "type": "merge",
+      "anchorMap": {
+        "import": "import"
+      },
+      "note": "Installation and Quick Start merge in v3"
+    },
+    {
+      "from": {
+        "releaseId": "v1",
+        "locale": "en-US",
+        "nodeId": "components-button"
+      },
+      "to": {
+        "releaseId": "v2",
+        "locale": "en-US",
+        "nodeId": "components-button"
+      },
+      "type": "same",
+      "anchorMap": {
+        "basic-usage": "basic-usage"
+      },
+      "note": "Button document node remains stable"
+    },
+    {
+      "from": {
+        "releaseId": "v2",
+        "locale": "en-US",
+        "nodeId": "components-button"
+      },
+      "to": {
+        "releaseId": "v3",
+        "locale": "en-US",
+        "nodeId": "components-button"
+      },
+      "type": "same",
+      "anchorMap": {
+        "basic-usage": "basic-usage"
+      },
+      "note": "Button document node remains stable"
+    },
+    {
+      "from": {
+        "releaseId": "v3",
+        "locale": "en-US",
+        "nodeId": "components-button"
+      },
+      "to": {
+        "releaseId": "v4",
+        "locale": "en-US",
+        "nodeId": "components-button-next"
+      },
+      "type": "private",
+      "anchorMap": {
+        "basic-usage": "basic-usage"
+      },
+      "note": "Private preview; access has been revoked"
+    }
+  ],
+  "terms": [
+    {
+      "releaseId": "v1",
+      "locale": "zh-CN",
+      "id": "button-action",
+      "name": "按钮",
+      "definition": "v1 中，按钮指触发同步表单提交的操作控件。"
+    },
+    {
+      "releaseId": "v1",
+      "locale": "en-US",
+      "id": "button-action",
+      "name": "Button",
+      "definition": "In v1, a button triggers a synchronous form submission."
+    },
+    {
+      "releaseId": "v2",
+      "locale": "zh-CN",
+      "id": "button-action",
+      "name": "按钮",
+      "definition": "v2 中，按钮指可绑定 loading、禁用态和点击事件的操作控件。"
+    },
+    {
+      "releaseId": "v2",
+      "locale": "zh-CN",
+      "id": "button-control",
+      "name": "按钮",
+      "definition": "v2 中另一个同名概念：模板里的按钮控件实例，不等同于设计令牌中的按钮动作。"
+    },
+    {
+      "releaseId": "v2",
+      "locale": "en-US",
+      "id": "button-action",
+      "name": "Button",
+      "definition": "In v2, a button is an action control with loading, disabled, and click states."
+    },
+    {
+      "releaseId": "v2",
+      "locale": "en-US",
+      "id": "button-control",
+      "name": "Button",
+      "definition": "In v2, this same display name also means a button control instance; it is not the button action design token."
+    },
+    {
+      "releaseId": "v3",
+      "locale": "zh-CN",
+      "id": "button-action",
+      "name": "按钮",
+      "definition": "v3 中，按钮默认通过异步命令模型处理点击，并支持命令撤销。"
+    },
+    {
+      "releaseId": "v3",
+      "locale": "zh-CN",
+      "id": "button-control",
+      "name": "按钮",
+      "definition": "v3 中，按钮控件实例统一归入 ButtonControl 类型；与按钮动作仍需通过稳定术语 ID 区分。"
+    },
+    {
+      "releaseId": "v3",
+      "locale": "en-US",
+      "id": "button-action",
+      "name": "Button",
+      "definition": "In v3, a button dispatches an async command and supports undo by default."
+    },
+    {
+      "releaseId": "v3",
+      "locale": "en-US",
+      "id": "button-control",
+      "name": "Button",
+      "definition": "In v3, a button control instance uses the ButtonControl type; the stable term ID still distinguishes it from a button action."
+    }
+  ]
+}
